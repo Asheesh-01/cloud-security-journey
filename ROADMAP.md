@@ -3,7 +3,12 @@
 
 ---
 
-# 📘 VOLUME 00 – ORIENTATION & CLOUD SECURITY INTRODUCTION
+> Click a volume to expand.
+
+<details>
+  <summary><strong>📘 VOLUME 00 – ORIENTATION & CLOUD SECURITY INTRODUCTION</strong></summary>
+
+</details>
 *(Foundation Before Volume 1)*
 
 ---
@@ -165,8 +170,8 @@ None
 
 ✅ END OF VOLUME 00
 
-
-# 📘 VOLUME 1 – MINDSET + COMPUTER & INTERNET FOUNDATIONS
+<details>
+  <summary><strong>📘 VOLUME 1 – MINDSET + COMPUTER & INTERNET FOUNDATIONS</strong></summary>
 
 ## 1. WHAT IS A COMPUTER
 • Data  
@@ -432,8 +437,11 @@ OpenVPN
 
 ---
 
+</details>
 
-# 📘 VOLUME 2 – OPERATING SYSTEMS DEEP DIVE (WINDOWS + LINUX)
+<details>
+  <summary><strong>📘 VOLUME 2 – OPERATING SYSTEMS DEEP DIVE (WINDOWS + LINUX)</strong></summary>
+
 *(Topics + Subtopics + Tools only)*
 
 ---
@@ -663,9 +671,11 @@ Windows Firewall
 
 ✅ **END OF VOLUME 2**
 
+</details>
 
+<details>
+  <summary><strong>📘 VOLUME 3 – NETWORKING FROM ZERO</strong></summary>
 
-# 📘 VOLUME 3 – NETWORKING FROM ZERO
 *(Topics + Subtopics + Tools only)*
 
 ---
@@ -874,8 +884,11 @@ nmap
 
 ✅ **END OF VOLUME 3**
 
+</details>
 
-# 📘 VOLUME 4 – PROGRAMMING FROM ZERO (PYTHON FIRST)
+<details>
+  <summary><strong>📘 VOLUME 4 – PROGRAMMING FROM ZERO (PYTHON FIRST)</strong></summary>
+
 *(Topics + Subtopics + Tools only)*
 
 ---
@@ -1101,9 +1114,11 @@ azure-identity
 • Create ONE artifact per topic (script / README / output screenshot)  
 
 ✅ END OF VOLUME 4
+</details>
 
+<details>
+  <summary><strong>📘 VOLUME 5 – SECURITY FOUNDATIONS</strong></summary>
 
-# 📘 VOLUME 5 – SECURITY FOUNDATIONS
 *(Topics + Subtopics + Tools only)*
 
 ---
@@ -1309,9 +1324,11 @@ None
 • Always connect theory to practical tools  
 
 ✅ END OF VOLUME 5
+</details>
 
+<details>
+  <summary><strong>📘 VOLUME 6 – BLUE TEAM CORE (SOC • Detection • IR)</strong></summary>
 
-# 📘 VOLUME 6 – BLUE TEAM CORE
 *(SOC • Detection • Incident Response)*  
 *(Topics + Subtopics + Tools only)*
 
@@ -1522,9 +1539,11 @@ Splunk
 • Create ONE artifact per topic (alert screenshots / Sigma rule / IR report)  
 
 ✅ END OF VOLUME 6
+</details>
 
+<details>
+  <summary><strong>📘 VOLUME 7 – CLOUD SECURITY (CORE FOCUS,Multi-Cloud Ready)</strong></summary>
 
-# 📘 VOLUME 7 – CLOUD SECURITY (CORE FOCUS)
 *(Multi-Cloud Ready)*  
 *(Topics + Subtopics + Tools only)*
 
@@ -1733,10 +1752,11 @@ ScoutSuite
 • Break → Secure → Re-test approach  
 
 ✅ END OF VOLUME 7
+</details>
 
+<details>
+  <summary><strong># 📘 VOLUME 8 – AUTOMATION & ENGINEERING SKILLS(DevSecOps)</strong></summary>
 
-
-# 📘 VOLUME 8 – AUTOMATION & ENGINEERING SKILLS
 *(Security Automation + DevSecOps Basics)*  
 *(Topics + Subtopics + Tools only)*
 
@@ -1872,9 +1892,11 @@ Trivy (IaC scanning)
 • Create ONE artifact per topic (script / playbook / pipeline screenshot)  
 
 ✅ END OF VOLUME 8
+</details>
 
+<details>
+  <summary><strong>📘 VOLUME 9 – PROJECTS & PORTFOLIO(Job-Ready)</strong></summary>
 
-# 📘 VOLUME 9 – PROJECTS & PORTFOLIO
 *(Hands-On • Cloud-Focused • Job-Ready)*  
 *(Projects + Tools only)*
 
@@ -2022,8 +2044,11 @@ Markdown
 
 ✅ END OF VOLUME 9
 
+</details>
 
-# 📘 VOLUME 10 – CAREER & INDUSTRY PREPARATION
+<details>
+  <summary><strong>📘 VOLUME 10 – CAREER & INDUSTRY PREPARATION</strong></summary>
+
 *(Job-Ready • Interview-Focused • India-Realistic)*  
 *(Topics + Subtopics + Tools only)*
 
@@ -2178,7 +2203,11 @@ Medium
 
 ✅ END OF VOLUME 10
 
-# 📘 VOLUME 11 – ADVANCED CLOUD SECURITY & REAL-WORLD ENGINEERING
+</details>
+
+<details>
+  <summary><strong>📘 VOLUME 11 – ADVANCED CLOUD SECURITY & REAL-WORLD ENGINEERING</strong></summary>
+
 *(Elite Layer – Architecture • Red vs Blue • Enterprise Depth)*  
 *(Topics + Subtopics + Tools only)*
 
@@ -2380,3 +2409,5 @@ Architecture diagrams
 • Understand business impact of security decisions  
 
 ✅ END OF VOLUME 11
+
+</details>
