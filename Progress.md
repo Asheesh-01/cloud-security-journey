@@ -1,7 +1,56 @@
+# 📘 VOLUME 0 – Orientation & Cloud Security Overview
+
+## 1. Introduction to Cloud Security
+- [✅] What is Cloud Security *(Tools: None)*
+- [✅] Why Cloud Security is Important *(Tools: None)*
+- [✅] Where Cloud Security is Used *(Tools: None)*
+- [✅] Shared Responsibility Model *(Tools: AWS Documentation)*
+
+---
+
+## 2. Understanding the Cloud Ecosystem
+- [✅] What is AWS *(Tools: AWS Website)*
+- [✅] What is Azure *(Tools: Azure Website)*
+- [✅] What is GCP *(Tools: GCP Website)*
+- [✅] Cloud vs On-Premise *(Tools: None)*
+
+---
+
+## 3. Career & Roadmap Clarity
+- [✅] Cloud Security Roles Overview *(Tools: None)*
+- [✅] Skills Required for Cloud Security Engineer *(Tools: None)*
+- [✅] Understanding This Roadmap Structure *(Tools: None)*
+- [✅] Setting 12–18 Month Goal *(Tools: None)*
+
+---
+
+## 4. Environment Setup
+- [✅] Ubuntu Setup & Updates *(Tools: apt)*
+- [✅] Install Git *(Tools: Git)*
+- [✅] Setup GitHub Repository *(Tools: GitHub)*
+- [✅] Install VS Code *(Tools: VS Code)*
+- [✅] Create Project Folder Structure *(Tools: Terminal)*
+
+---
+
+## 5. Learning Strategy & Discipline
+- [✅] Practical-First Approach *(Tools: None)*
+- [✅] Documentation Habit *(Tools: Markdown)*
+- [✅] Commit Daily to GitHub *(Tools: Git)*
+- [✅] Understand 80% Practical / 20% Theory Model *(Tools: None)*
+
+---
+
+## 6. Public Learning Start
+- [✅] Publish First LinkedIn Post *(Tools: LinkedIn)*
+- [✅] Create Introduction README *(Tools: Markdown)*
+- [✅] Define Personal Learning Rules *(Tools: Markdown)*
+
+
 # 📘 VOLUME 1 – Mindset + Computer & Internet Foundations
 
 ## 1. What is a Computer
-- [✅ ] Data *(Tools: None)*
+- [ ] Data *(Tools: None)*
 - [ ] Information *(Tools: None)*
 - [ ] Hardware vs Software *(Tools: None)*
 - [ ] Input Devices *(Tools: None)*
