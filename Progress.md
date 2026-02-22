@@ -1,7 +1,7 @@
 # 📘 VOLUME 1 – Mindset + Computer & Internet Foundations
 
 ## 1. What is a Computer
-- [ ] Data *(Tools: None)*
+- [✅ ] Data *(Tools: None)*
 - [ ] Information *(Tools: None)*
 - [ ] Hardware vs Software *(Tools: None)*
 - [ ] Input Devices *(Tools: None)*
