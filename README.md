@@ -9,6 +9,7 @@ Daily hands-on cloud security learning journey (Linux, Networking, Blue Team, AW
 - Build portfolio projects & document everything
 
 ## Repo Structure
+- `Volume-00_Orientation/`
 - `Volume-01_Foundations/`
 - `Volume-02_OS-Deep-Dive/`
 - `Volume-03_Networking/`
