@@ -8,7 +8,7 @@
 <details>
   <summary><strong>📘 VOLUME 00 – ORIENTATION & CLOUD SECURITY INTRODUCTION</strong></summary>
 
-</details>
+
 *(Foundation Before Volume 1)*
 
 ---
@@ -169,7 +169,7 @@ None
 • Consistency > Intensity  
 
 ✅ END OF VOLUME 00
-
+</details>
 <details>
   <summary><strong>📘 VOLUME 1 – MINDSET + COMPUTER & INTERNET FOUNDATIONS</strong></summary>
 
