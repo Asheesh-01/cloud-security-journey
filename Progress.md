@@ -52,11 +52,10 @@
 ## 1. What is a Computer
 - [✅] Data *(Tools: None)*
 - [✅] Information *(Tools: None)*
-- [✅
-] Hardware vs Software *(Tools: None)*
-- [ ] Input Devices *(Tools: None)*
-- [ ] Output Devices *(Tools: None)*
-- [ ] Storage Devices *(Tools: None)*
+- [✅] Hardware vs Software *(Tools: None)*
+- [✅] Input Devices *(Tools: None)*
+- [✅] Output Devices *(Tools: None)*
+- [✅] Storage Devices *(Tools: None)*
 - [ ] CPU, RAM, Disk, GPU *(Tools: None)*
 - [ ] Motherboard *(Tools: None)*
 - [ ] BIOS / UEFI *(Tools: None)*
