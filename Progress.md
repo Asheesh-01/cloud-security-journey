@@ -56,9 +56,9 @@
 - [✅] Input Devices *(Tools: None)*
 - [✅] Output Devices *(Tools: None)*
 - [✅] Storage Devices *(Tools: None)*
-- [ ] CPU, RAM, Disk, GPU *(Tools: None)*
-- [ ] Motherboard *(Tools: None)*
-- [ ] BIOS / UEFI *(Tools: None)*
+- [✅] CPU, RAM, Disk, GPU *(Tools: None)*
+- [✅] Motherboard *(Tools: None)*
+- [✅] BIOS / UEFI *(Tools: None)*
 
 ---
 
