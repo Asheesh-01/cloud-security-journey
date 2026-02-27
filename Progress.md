@@ -63,10 +63,10 @@
 ---
 
 ## 2. How Computers Process Data
-- [ ] Binary Numbers *(Tools: Windows Calculator – Programmer Mode)*
-- [ ] Bits & Bytes *(Tools: Windows Calculator – Programmer Mode)*
-- [ ] Number Systems *(Tools: Windows Calculator – Programmer Mode)*
-- [ ] Character Encoding *(Tools: None)*
+- [✅] Binary Numbers *(Tools: Windows Calculator – Programmer Mode)*
+- [✅] Bits & Bytes *(Tools: Windows Calculator – Programmer Mode)*
+- [✅] Number Systems *(Tools: Windows Calculator – Programmer Mode)*
+- [✅] Character Encoding *(Tools: None)*
 - [ ] Instruction Cycle *(Tools: None)*
 - [ ] Registers *(Tools: None)*
 - [ ] Cache Memory *(Tools: None)*
