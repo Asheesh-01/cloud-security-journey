@@ -67,9 +67,9 @@
 - [✅] Bits & Bytes *(Tools: Windows Calculator – Programmer Mode)*
 - [✅] Number Systems *(Tools: Windows Calculator – Programmer Mode)*
 - [✅] Character Encoding *(Tools: None)*
-- [ ] Instruction Cycle *(Tools: None)*
-- [ ] Registers *(Tools: None)*
-- [ ] Cache Memory *(Tools: None)*
+- [✅] Instruction Cycle *(Tools: None)*
+- [✅] Registers *(Tools: None)*
+- [✅] Cache Memory *(Tools: None)*
 
 ---
 
