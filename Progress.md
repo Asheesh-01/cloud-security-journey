@@ -74,8 +74,8 @@
 ---
 
 ## 3. What is an Operating System
-- [ ] Purpose of OS *(Tools: Task Manager / htop)*
-- [ ] Kernel *(Tools: Task Manager / htop)*
+- [✅] Purpose of OS *(Tools: Task Manager / htop)*
+- [✅] Kernel *(Tools: Task Manager / htop)*
 - [ ] User Space vs Kernel Space *(Tools: Task Manager / htop)*
 - [ ] Processes *(Tools: Task Manager / htop)*
 - [ ] Memory Management *(Tools: Task Manager / htop)*
