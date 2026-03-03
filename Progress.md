@@ -77,7 +77,7 @@
 - [✅] Purpose of OS *(Tools: Task Manager / htop)*
 - [✅] Kernel *(Tools: Task Manager / htop)*
 - [✅] User Space vs Kernel Space *(Tools: Task Manager / htop)*
-- [ ] Processes *(Tools: Task Manager / htop)*
+- [✅] Processes *(Tools: Task Manager / htop)*
 - [ ] Memory Management *(Tools: Task Manager / htop)*
 - [ ] File Systems *(Tools: None)*
 - [ ] Device Drivers *(Tools: None)*
