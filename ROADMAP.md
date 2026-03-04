@@ -59,7 +59,6 @@ This roadmap builds all three simultaneously.
 |-------|--------------|
 | 20% Theory | Read the concept. Understand the WHY. Draw the diagram by hand. |
 | 80% Practical | Run the commands. Break things. Fix them. Screenshot everything. |
-| 0% Video | No YouTube. No Udemy. No shortcuts. You and the terminal. |
 | 0% Passive Reading | Reading without running commands = zero learning. |
 
 </details>
