@@ -99,3 +99,119 @@ before an attacker walks through.
 **Commit message:**
 ```
 Day 01 - What is Cloud Security - notes, labs, interview prep added
+
+
+---
+
+## Topic 2 — Cloud Ecosystem & Service Models
+
+---
+
+### Q1. What are the three major cloud providers and what is each known for? Which dominates Indian startups?
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+AWS — Amazon Web Services. Founded 2006. Market leader with
+32% global share. Most mature security tooling. Dominates
+Indian startups and fintechs. Most fresher cloud security
+job postings in India require AWS knowledge.
+
+Azure — Microsoft Azure. Second largest. Dominates enterprise
+and government sector. Large IT companies like TCS, Wipro,
+Infosys use Azure for their enterprise clients.
+
+GCP — Google Cloud Platform. Third largest. Strong in AI,
+machine learning, and data analytics. Growing fast in Indian
+startups building on AI and ML.
+
+AWS dominates Indian startups. Azure dominates enterprise.
+GCP dominates AI and ML workloads.
+
+---
+
+### Q2. What is a Region and what is an Availability Zone? How are they different?
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+A Region is a physical geographic location where a cloud
+provider has built data centers. Example — AWS ap-south-1
+is Mumbai. Data stored here physically sits on servers in
+Mumbai. Matters for compliance — Indian regulations require
+certain data to stay within Indian borders.
+
+An Availability Zone is a subdivision inside a region.
+Each region has 2 to 3 AZs minimum. Each AZ is one or more
+data centers with completely independent power, cooling,
+and networking. If one AZ fails due to fire or attack,
+others keep running and your service stays available.
+
+Difference — Region is the city. AZ is the individual
+building inside that city.
+
+---
+
+### Q3. What is the difference between IaaS, PaaS, and SaaS? Give one real example of each.
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+IaaS — Infrastructure as a Service. Provider gives virtual
+machine, storage, networking. You manage OS, applications,
+data, and all security. Most control, most responsibility.
+Example — AWS EC2. You get a server, install everything yourself.
+
+PaaS — Platform as a Service. Provider gives infrastructure,
+OS, runtime. You manage application code and data only.
+Example — AWS RDS. AWS manages the database engine and OS.
+You manage data and the application connecting to it.
+
+SaaS — Software as a Service. Provider gives complete
+working software. You manage only data and access.
+Example — Gmail. Google manages everything. You manage
+your emails and who can access your account.
+
+Core rule — more control equals more responsibility.
+
+---
+
+### Q4. Your company uses AWS RDS. A vulnerability is found in the database engine. Who patches it?
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+AWS patches it. AWS RDS is a managed database service
+which makes it PaaS. Under PaaS, AWS is responsible for
+the database engine, OS, and underlying infrastructure.
+Your team never touches the underlying engine.
+
+Your team is only responsible for the application layer
+that connects to RDS and the data stored inside it.
+
+This is the core value of managed services — you trade
+control for reduced operational and security responsibility
+on the infrastructure layer.
+
+---
+
+### Q5. What is multi-cloud strategy? Why do companies use it and what security challenge does it create?
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+Multi-cloud strategy means using two or more cloud providers
+simultaneously. Example — AWS for compute, GCP for AI
+workloads, Azure for enterprise identity management.
+
+Companies use it for four reasons:
+1. Avoid vendor lock-in
+2. Use best service from each provider
+3. Regulatory compliance requirements
+4. Redundancy — if one provider fails, others handle load
+
+Security challenge — misconfigurations can happen across
+multiple platforms simultaneously. Each cloud has different
+security tools, different IAM models, different logging.
+Security engineer must monitor all clouds at once. More
+platforms equals larger attack surface and more complexity.
