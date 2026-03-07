@@ -215,3 +215,143 @@ multiple platforms simultaneously. Each cloud has different
 security tools, different IAM models, different logging.
 Security engineer must monitor all clouds at once. More
 platforms equals larger attack surface and more complexity.
+
+
+
+---
+
+## Topic 3 — Career Roles & Goal Setting
+
+---
+
+### Q1. What does a SOC Tier 1 Analyst do daily? What is the difference between Tier 1, Tier 2, and Tier 3?
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+A SOC Tier 1 Analyst monitors a SIEM dashboard for suspicious
+activity, triages incoming alerts to determine if they are
+real attacks or false positives, investigates suspicious
+logins, brute force attempts, and malware alerts, and
+escalates serious incidents to higher tiers.
+
+SIEM — Security Information and Event Management — is the
+platform that collects logs from all systems in one place
+and generates alerts when something suspicious happens.
+
+Tier 1 — alert triage and first response, entry level.
+Tier 2 — deeper investigation and incident handling,
+requires 1 to 2 years experience.
+Tier 3 — threat hunting and advanced analysis,
+requires 3 plus years experience.
+
+---
+
+### Q2. What is the difference between a SOC Analyst and a Cloud Security Engineer?
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+SOC Analyst is reactive — monitors alerts and investigates
+incidents after they are detected. Works across all systems
+including cloud, endpoints, and network.
+
+Cloud Security Engineer is proactive — designs and builds
+security controls in cloud environments to prevent incidents
+from happening. Configures IAM policies, sets up logging,
+finds misconfigurations before attackers exploit them.
+
+Key difference — SOC Analyst finds the fire and responds.
+Cloud Security Engineer builds the system that prevents fire.
+
+A SOC Analyst can move into cloud security with additional
+AWS knowledge. A Cloud Security Engineer already has SOC
+fundamentals as part of their foundation.
+
+---
+
+### Q3. What is PICERL? Walk through each stage using ransomware as example.
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+PICERL is the incident response framework every security
+team follows when handling a confirmed breach.
+
+Preparation — before ransomware hits, have tools ready,
+playbooks written, backups tested, team trained.
+
+Identification — Monday 2AM alert fires. SIEM detects
+unusual file encryption activity. Confirm this is ransomware
+not a false positive. Incident is declared.
+
+Containment — immediately isolate infected machines from
+network. Block attacker's IP addresses. Prevent ransomware
+from spreading to other systems.
+
+Eradication — remove the ransomware completely from all
+infected systems. Find and eliminate the initial entry
+point the attacker used to get in.
+
+Recovery — restore systems from clean backups. Verify
+systems are clean before bringing back online. Resume
+normal business operations.
+
+Lessons Learned — write full incident report. Document
+timeline, root cause, how attacker got in, what they
+accessed, what was done to fix it, what to improve.
+
+---
+
+### Q4. What is the difference between a penetration tester and an incident responder?
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+Penetration Tester works before any real attack happens.
+They are hired to legally simulate an attack on the
+company's own systems, find vulnerabilities, exploit them
+in a controlled way, and report what they found with
+recommendations to fix everything. Offensive approach.
+
+Incident Responder is called after a real breach has
+already happened. They contain the damage, collect
+evidence, investigate what the attacker did, recover
+systems, and write a report on what happened. Defensive
+and reactive approach.
+
+Penetration Tester — before attack, offensive, finds
+weaknesses.
+Incident Responder — after attack, defensive, stops damage
+and recovers.
+
+---
+
+### Q5. You are a fresher applying for SOC Analyst role. What skills would you highlight?
+
+> Try to answer yourself first before reading below.
+
+**Answer:**
+Five skills I would highlight as a fresher:
+
+Linux — almost all SOC work happens on Linux. Log reading,
+command line investigation, process monitoring all require
+Linux fundamentals.
+
+Networking — must understand how packets travel, how
+protocols work, how malware enters a network, how to
+read network logs and identify suspicious traffic.
+
+Log Analysis — SOC analyst reads logs all day. Windows
+Event IDs, Linux auth.log, firewall logs, cloud logs.
+Understanding what normal looks like helps spot abnormal.
+
+SIEM knowledge — hands on experience with Wazuh or Splunk.
+This is the primary tool of a SOC analyst. Knowing how to
+write basic queries and read alerts is essential.
+
+Communication — findings must be written clearly in
+incident tickets. Escalations must be precise. Reports
+must be readable by both technical and non-technical
+stakeholders. English communication is evaluated heavily
+at ₹20 plus LPA companies.
