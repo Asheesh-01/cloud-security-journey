@@ -355,3 +355,141 @@ incident tickets. Escalations must be precise. Reports
 must be readable by both technical and non-technical
 stakeholders. English communication is evaluated heavily
 at ₹20 plus LPA companies.
+
+
+
+---
+
+## Topic 4 — Environment Setup
+
+---
+
+### Q1. What is the difference between root user and IAM user in AWS?
+Why should you never use root for daily work?
+
+> Try yourself first.
+
+**Answer:**
+Root user is the account created when you first sign up for AWS.
+It has unlimited access to everything in the account and cannot
+be restricted by any policy. If root credentials are compromised
+the attacker can delete the entire account, remove billing alerts,
+create hundreds of paid resources, and nothing can stop them
+because root overrides all restrictions.
+
+IAM user — Identity and Access Management user — is created by
+root with specific limited permissions. Has only the access
+needed for the task. If an IAM user is compromised it can be
+immediately deactivated from the root account. Damage is limited
+and controllable.
+
+Rule: Create one IAM user for daily work. Lock away root
+credentials. Enable MFA on root. Never use root again.
+
+---
+
+### Q2. What is an AWS Access Key? What happens if it leaks on GitHub?
+
+> Try yourself first.
+
+**Answer:**
+An AWS Access Key consists of two parts — an Access Key ID
+which starts with AKIA and a Secret Access Key which is a
+longer random string. Together they authenticate the AWS CLI
+and SDK to your AWS account from the terminal or from code.
+They work like a username and password for programmatic access.
+
+If leaked on GitHub — automated bots scan GitHub every few
+minutes specifically looking for exposed AWS keys. Within
+minutes of a key appearing on GitHub, bots find it,
+authenticate to your account, and immediately spin up expensive
+resources — typically GPU instances used for crypto mining.
+Students have received bills of $50,000 or more from a single
+leaked key. AWS sometimes waives the charge but not always.
+
+Immediate action if leaked:
+Go to IAM console, deactivate and delete the key immediately.
+Check CloudTrail for any unauthorized activity.
+Create a new key. Use git-secrets to prevent future leaks.
+
+---
+
+### Q3. What does aws sts get-caller-identity do? What is an ARN?
+
+> Try yourself first.
+
+**Answer:**
+aws sts get-caller-identity asks AWS — who am I authenticated
+as right now. AWS responds with three values — your account ID,
+your user ID, and your ARN. It is used to verify that AWS CLI
+is correctly connected to the right account and the right user.
+
+STS stands for Security Token Service — the AWS service that
+handles identity verification and can issue temporary credentials.
+
+ARN stands for Amazon Resource Name. It is a unique identifier
+for every single resource in AWS. No two resources have the
+same ARN. Format is always:
+arn:aws:service::accountnumber:resourcetype/resourcename
+
+Example:
+arn:aws:iam::811430801576:user/asheesh01
+This identifies IAM user asheesh01 in account 811430801576.
+
+---
+
+### Q4. What is ap-south-1? Why use it as your default region?
+
+> Try yourself first.
+
+**Answer:**
+ap-south-1 is the AWS region code for Mumbai, India.
+
+A region is a physical geographic location where AWS has
+multiple data centers. AWS has regions across the world —
+US, Europe, Asia Pacific, and more.
+
+You choose ap-south-1 because:
+It is physically closest to India which means lowest network
+latency — your CLI commands and application requests reach
+AWS servers faster.
+Data stored in Mumbai stays in India which is relevant for
+compliance with Indian data protection laws including the
+DPDP Act — Digital Personal Data Protection Act.
+For Indian users and Indian applications Mumbai region is
+always the correct default choice.
+
+---
+
+### Q5. You accidentally commit your AWS Access Key to GitHub.
+What are your immediate steps?
+
+> Try yourself first.
+
+**Answer:**
+Step 1 — immediately go to AWS IAM console and deactivate
+and delete the exposed access key. Not just change it —
+delete it completely so it cannot be used at all even if
+someone already copied it.
+
+Step 2 — check CloudTrail logs immediately. CloudTrail records
+every API call made with your credentials. Look for any
+calls you did not make — unusual regions, unusual services,
+resource creation. This tells you if the key was already used.
+
+Step 3 — if unauthorized activity is found, immediately revoke
+all active sessions, change root account password, verify MFA
+is enabled on root, check for any new IAM users created by
+attacker, delete any resources created by attacker.
+
+Step 4 — remove the key from Git history completely using
+BFG Repo Cleaner or git filter-branch. Deleting the file
+and committing again is not enough — Git keeps full history
+and the key is still visible in old commits.
+
+Step 5 — create a new access key, configure AWS CLI with
+new credentials, install git-secrets on the repository to
+prevent this happening again.
+
+Lesson: treat Access Keys like passwords. Never put them
+in any file that touches Git.
