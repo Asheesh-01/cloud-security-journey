@@ -1,3 +1,7 @@
 aws/
 *.zip
 awscliv2.zip
+__pycache__/
+*.pyc
+.env
+.aws/
