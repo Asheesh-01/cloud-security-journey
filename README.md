@@ -26,7 +26,7 @@ This journey follows a structured 10-volume roadmap built for cracking a cloud s
 
 | Volume | Topic | Status |
 |--------|-------|--------|
-| Volume 00 | Orientation & Environment Setup | 
+| Volume 00 | Orientation & Environment Setup | ✅ |
 | Volume 01 | Computer & Internet Foundations | 
 | Volume 02 | Operating Systems Deep Dive | 
 | Volume 03 | Networking From Zero | 
