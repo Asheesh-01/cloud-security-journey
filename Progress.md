@@ -1,6 +1,4 @@
 # 📊 Progress Tracker — Cloud Security Journey
-**Last Updated:** Day 09 complete | Day 10 starting
-**Streak:** Active — do not break it
 
 ---
 
@@ -20,11 +18,11 @@
 | Platform | Frequency | Rule |
 |----------|-----------|------|
 | GitHub | Daily | 1 commit minimum — no exceptions |
-| LinkedIn | Every 2 days | 150 words max — your own words — include GitHub link |
+| LinkedIn | Every  day | 150 words max — your own words — include GitHub link |
 | Hashnode | Per volume | 1 detailed blog when volume is complete — 800–1200 words |
 
 > You learn 1–2 topics per day. Do NOT wait for 5 topics to post on LinkedIn.
-> Post every 2 days about whatever you learned. Even half a topic is worth a post.
+> Post every day about whatever you learned. Even half a topic is worth a post.
 
 ---
 

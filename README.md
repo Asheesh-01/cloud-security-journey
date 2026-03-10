@@ -108,13 +108,6 @@ Every single day:
 
 ---
 
-## 📊 Current Stats
-
-- **Days Active:** 09
-- **Volume:** 01 — Computer & Internet Foundations
-- **Current Topic:** What is an Operating System → Memory Management (Day 10)
-- **GitHub Streak:** Active
-- **LinkedIn Posts:** Published daily
 
 ---
 
