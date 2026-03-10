@@ -1,6 +1,6 @@
 # Day 03 — Career Roles & Goal Setting
 
-**Date:** [fill today's date]
+**Date:** [08-03-26]
 **Volume:** 00 — Orientation
 **Topic:** Career Roles in Cloud Security
 

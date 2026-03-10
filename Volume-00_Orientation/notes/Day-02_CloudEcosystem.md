@@ -1,6 +1,6 @@
 # Day 02 — Cloud Ecosystem & Service Models
 
-**Date:** [fill today's date]
+**Date:** [07-03-26]
 **Volume:** 00 — Orientation
 **Topic:** Understanding the Cloud Ecosystem
 

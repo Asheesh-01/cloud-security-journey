@@ -1,6 +1,6 @@
 # Day 04 — Environment Setup
 
-**Date:** [fill today's date]
+**Date:** [09-03-26]
 **Volume:** 00 — Orientation
 **Topic:** Complete Environment Verification and Configuration
 

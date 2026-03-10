@@ -1,6 +1,6 @@
 # Day 01 — What is Cloud Security
 
-**Date:** [fill today's date]
+**Date:** [06-03-26]
 **Volume:** 00 — Orientation
 **Topic:** What is Cloud Security
 
