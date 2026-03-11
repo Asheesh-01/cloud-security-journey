@@ -365,5 +365,5 @@ Volume 00 taught what cloud security is and where it operates.
 Topic 1 builds the hardware foundation everything else sits on.
 You cannot secure what you do not understand.
 Every cloud service — EC2, S3, Lambda — runs on physical
-hardware in AWS data centers. Same components. Same attack
+hardware in AWS(Amazon Web services) data centers. Same components. Same attack
 surfaces. Larger scale.
