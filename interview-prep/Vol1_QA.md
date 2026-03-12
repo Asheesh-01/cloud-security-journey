@@ -145,3 +145,70 @@ Four — disable Secure Boot in BIOS settings. With Secure
 Boot disabled the attacker can later deploy a bootkit
 remotely. The malicious bootloader will load successfully
 on every boot because signature verification is off.
+
+
+
+
+# Interview Prep — Volume 01 Topic 2
+# How Computers Process Data
+
+---
+
+**Q1. What is the difference between a bit and a byte? How many possible values can one byte hold and why?**
+
+A bit is the smallest unit of data in a computer. It holds exactly one binary digit — either 0 or 1. Nothing smaller exists.
+
+A byte is 8 bits grouped together. One byte can hold 256 different values — from 0 to 255.
+
+Why 256: each of the 8 bit positions can independently be 0 or 1. Total combinations = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 = 2^8 = 256.
+
+---
+
+**Q2. An IPv4 address is 32 bits. How many possible IPv4 addresses exist and why did IPv4 run out?**
+
+An IPv4 address is 32 bits long. 2^32 = 4,294,967,296 — approximately 4.3 billion possible addresses.
+
+IPv4 ran out because the number of internet-connected devices grew beyond 4.3 billion. Every smartphone, laptop, server, IoT device, and router needs an IP address. The world exceeded this limit.
+
+The solution is IPv6 which uses 128-bit addresses giving 2^128 possible addresses — a number so large it will not run out in any foreseeable future.
+
+---
+
+**Q3. You find the string cGFzc3dvcmQ= in a firewall log. What do you do and what does it say?**
+
+The = at the end is the Base64 padding character. First thought: this is a Base64 encoded string.
+
+First action: decode it immediately.
+```python
+import base64
+base64.b64decode('cGFzc3dvcmQ=')
+```
+Result: b'password'
+
+The finding: the word password was transmitted in a form that looks like random data but is trivially decodable. This is a credential exposure. Someone or something logged a plaintext password. This is escalated immediately in a SOC investigation — it could mean a misconfigured application is logging credentials, or an attacker planted decoy credentials. Check what process generated this log entry and at what time.
+
+---
+
+**Q4. Why does the character A take 1 byte in UTF-8 but the character अ takes 3 bytes?**
+
+UTF-8 is a variable-width encoding. The number of bytes used depends on where the character sits in the Unicode standard.
+
+A is ASCII character number 65. It falls in the first 128 characters of Unicode. UTF-8 uses exactly 1 byte for any character in this range — identical to ASCII. This ensures backward compatibility.
+
+अ is a Devanagari character. It falls in a Unicode range that requires 3 bytes in UTF-8. Devanagari script has hundreds of characters. The UTF-8 standard assigns 3 bytes to characters in this range to fit them into the encoding scheme.
+
+Confirmed with Python: 'A'.encode('utf-8') = b'A' (1 byte), 'अ'.encode('utf-8') = b'\xe0\xa4\x85' (3 bytes).
+
+---
+
+**Q5. What is Spectre? How does it use cache timing to read protected memory without directly accessing it?**
+
+Spectre is a hardware vulnerability discovered in 2018 affecting Intel, AMD, and ARM processors — virtually every computer. It exploits two CPU performance features: speculative execution and cache timing.
+
+Speculative execution: the CPU executes instructions before it knows if they are needed, as a performance optimisation. If it turns out those instructions were not needed, the CPU discards the results. But the data loaded during speculative execution leaves traces in cache.
+
+The attack: an attacker tricks the CPU into speculatively executing code that accesses protected memory — memory the attacker is not supposed to read. The CPU loads that protected data into cache. The CPU then realises the speculative execution was wrong and discards the visible result. But the data is still in cache.
+
+The timing measurement: the attacker then probes cache by accessing various memory locations and measuring how long each access takes. A cache hit (data already in cache) takes ~4 CPU cycles. A cache miss (data not in cache, must fetch from RAM) takes ~200 cycles. By measuring these timing differences the attacker deduces what data was loaded into cache — and therefore what the protected memory contained. This is a timing side channel attack.
+
+The attacker never directly reads the protected memory. They only measure time. But time reveals the secret.
