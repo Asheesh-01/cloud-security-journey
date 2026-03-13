@@ -95,8 +95,8 @@
 - [✅] Purpose of OS *(Tools: htop)*
 - [✅] Kernel *(Tools: uname -r, dmesg)*
 - [✅] User Space vs Kernel Space *(Tools: strace)*
-- [ ] Processes *(Tools: ps, pstree, htop)*
-- [ ] Memory Management
+- [✅] Processes *(Tools: ps, pstree, htop)*
+- [✅] Memory Management
 - [ ] File Systems
 - [ ] Device Drivers
 
