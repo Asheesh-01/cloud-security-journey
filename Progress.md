@@ -97,7 +97,7 @@
 - [✅] User Space vs Kernel Space *(Tools: strace)*
 - [✅] Processes *(Tools: ps, pstree, htop)*
 - [✅] Memory Management
-- [ ] File Systems
+- [✅] File Systems
 - [ ] Device Drivers
 
 ## 4. Types of Operating Systems
