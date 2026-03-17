@@ -98,7 +98,7 @@
 - [✅] Processes *(Tools: ps, pstree, htop)*
 - [✅] Memory Management
 - [✅] File Systems
-- [ ] Device Drivers
+- [✅] Device Drivers
 
 ## 4. Types of Operating Systems
 - [ ] Desktop OS

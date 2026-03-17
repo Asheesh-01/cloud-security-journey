@@ -212,3 +212,98 @@ The attack: an attacker tricks the CPU into speculatively executing code that ac
 The timing measurement: the attacker then probes cache by accessing various memory locations and measuring how long each access takes. A cache hit (data already in cache) takes ~4 CPU cycles. A cache miss (data not in cache, must fetch from RAM) takes ~200 cycles. By measuring these timing differences the attacker deduces what data was loaded into cache — and therefore what the protected memory contained. This is a timing side channel attack.
 
 The attacker never directly reads the protected memory. They only measure time. But time reveals the secret.
+
+
+
+# Interview Prep — Volume 01 Topic 3
+# What is Operating System
+
+
+
+---
+
+## Subtopic 1 — Purpose of OS
+
+**Q1. What is an operating system and what problem does it solve?**
+An operating system is software that manages hardware resources and provides services to applications. Without an OS, every application would need to know how to talk to every piece of hardware directly — impossible to maintain. The OS abstracts hardware, manages resources like CPU time and RAM between multiple programs, and enforces security isolation so one process cannot access another's memory.
+
+**Q2. What is privilege escalation and how does it relate to the OS?**
+Privilege escalation is when an attacker breaks out of their restricted user-level access and gains OS or kernel level privileges. The OS separates user space (restricted) from kernel space (full access). Privilege escalation exploits vulnerabilities in the OS to cross this boundary. Once an attacker has kernel level access they control everything — can read any file, any memory, any network traffic.
+
+---
+
+## Subtopic 2 — The Kernel
+
+**Q3. What is the kernel and what does it control?**
+The kernel is the core of the operating system with complete hardware control. It manages CPU scheduling (which process runs when), RAM allocation and protection (which process owns which memory), file read/write operations, and network data. It runs in Ring 0 — the highest CPU privilege level — with direct hardware access.
+
+**Q4. What is a rootkit and how does it target the kernel?**
+A rootkit is malware that replaces or hooks into kernel components to hide itself and maintain persistence. Because the kernel controls what the OS sees — processes, files, network connections — a kernel-level rootkit can hide its own process from ps, hide its files from ls, and hide its network connections from netstat. Detection requires comparing kernel memory directly against known good state because the rootkit controls the tools you would normally use to find it.
+
+---
+
+## Subtopic 3 — User Space vs Kernel Space
+
+**Q5. What is the difference between user space and kernel space?**
+Kernel space is Ring 0 — full hardware access — where the kernel and device drivers run. User space is Ring 3 — restricted — where all applications run. The CPU enforces this separation at hardware level. An application in user space cannot access hardware directly or read another process's memory. It must make system calls to request kernel services. This separation is the foundation of OS security — breaking it is privilege escalation.
+
+**Q6. What is a system call? Give an example.**
+A system call is the only legitimate doorway between user space and kernel space. When an application needs a kernel service — reading a file, allocating memory, creating a network connection — it makes a system call. The CPU switches from Ring 3 to Ring 0, executes the kernel function, returns the result, switches back. Example: when you run `cat /etc/passwd`, the cat program makes an `open()` system call to open the file, then `read()` system calls to read the contents, then `write()` to display output. The strace tool shows every system call a process makes.
+
+---
+
+## Subtopic 4 — Processes
+
+**Q7. What is the difference between a program and a process?**
+A program is a file sitting on disk — code that is not running. A process is that program loaded into RAM and actively executing, with a PID assigned by the kernel, its own memory space, a state, and an owner. Chrome.exe on disk is a program. When you open Chrome, the OS creates a process — loads the code into RAM, assigns PID 2341, allocates virtual address space. When you close Chrome, the process dies and RAM is freed. The file on disk remains unchanged.
+
+**Q8. How does fork() and exec() work? Why does this matter for security?**
+fork() creates an identical copy of the current process — the child gets a new PID but starts as a clone of the parent. exec() replaces the child process with a new program. Together they are how every process is created on Linux. Security relevance: malware that injects into a legitimate process uses these mechanisms. A suspicious parent-child relationship — Word.exe creating cmd.exe creating PowerShell.exe — reveals a macro attack chain. Forensic investigators look at process trees specifically for unexpected parent-child relationships.
+
+---
+
+## Subtopic 5 — Memory Management
+
+**Q9. What is virtual memory and why does it exist?**
+Virtual memory is a system where each process gets its own private address space that looks like it owns all available memory — but this is an abstraction. The MMU hardware translates virtual addresses to physical RAM addresses using page tables. It exists to solve three problems: isolation (two processes can use the same virtual address without conflict because they map to different physical locations), size flexibility (processes can use more virtual space than physical RAM exists through swapping), and fragmentation (non-contiguous physical memory appears contiguous virtually).
+
+**Q10. What is a buffer overflow and how does it work at the memory level?**
+A buffer overflow happens when a program writes more data into a fixed-size buffer than it can hold. On the stack, the buffer sits adjacent to the return address — the virtual address the CPU jumps to when the function finishes. If an attacker overflows the buffer with carefully crafted data, the extra bytes overwrite the return address. When the function returns, the CPU loads the attacker-controlled address into the RIP register and jumps there. If that address points to attacker-controlled executable memory, the attacker controls execution. NX bit protection makes the stack non-executable (rw-p not r-xp) — modern exploit techniques like ROP chain together existing executable code to bypass this.
+
+**Q11. What is fileless malware and why is it difficult to detect?**
+Fileless malware lives entirely in RAM — no file is written to disk. It injects itself into a legitimate running process's memory (heap or code injection) or runs in tmpfs which is cleared on reboot. Traditional antivirus scans files on disk — fileless malware has no disk presence to scan. Detection requires memory forensics tools like Volatility that analyse RAM directly, looking for injected code, unusual memory permissions (rwxp regions), and process hollowing indicators.
+
+---
+
+## Subtopic 6 — File Systems
+
+**Q12. What is an inode and what does it store?**
+An inode is a metadata record that stores everything about a file except its filename. It stores: file size, owner (uid and gid), permissions (rwx for owner, group, others), three timestamps (atime, mtime, ctime), and pointers to the actual data blocks on disk. The filename lives in the directory entry which points to the inode number. This means two filenames can point to the same inode — called a hard link. The inode number is the file's real identity on disk.
+
+**Q13. What are the three Linux file timestamps and which one matters most to a forensic investigator?**
+atime (access time) — last time the file was read. mtime (modify time) — last time the file content was changed. ctime (change time) — last time the inode metadata changed. ctime matters most to forensic investigators because it cannot be changed by normal user commands — it updates automatically whenever the inode is touched. An attacker can fake atime and mtime using the touch -t command (timestomping) to make malware look like an old system file. But ctime reveals the truth — if mtime shows 2020 but ctime shows last Tuesday at 3 AM, the file was tampered with recently.
+
+**Q14. What is slack space and why does it matter in forensics?**
+Slack space is the unused bytes in a disk block when a file is smaller than the block size. On ext4 the block size is 4096 bytes. A file of 100 bytes still occupies one full 4096 byte block — the remaining 3996 bytes is slack space. When a file is deleted, the kernel marks the block as available but does not wipe the data. That old data sits in the block until another file overwrites it. Forensic tools scan slack space to recover fragments of deleted files — evidence that an attacker thought was gone.
+
+**Q15. What does the file command do and why is it useful in security investigations?**
+The file command reads the first few bytes of a file — called magic bytes or file signature — and identifies the true file type regardless of filename or extension. Every file type has a unique signature: ELF executables start with 7f 45 4c 46, JPEG images start with ff d8 ff, ZIP files start with 50 4b 03 04. Malware disguised as invoice.pdf that is actually a Linux executable is immediately exposed by file command returning ELF 64-bit executable. This bypasses the trivial attacker trick of renaming a malicious file with an innocent extension.
+
+---
+
+## Subtopic 7 — Device Drivers
+
+**Q16. What is a device driver and why does it run in kernel space?**
+A device driver is software that translates between the OS kernel and a specific hardware device. The kernel defines a standard interface — drivers implement that interface for their specific hardware. Drivers run in kernel space (Ring 0) because they need direct hardware access — they must read and write hardware registers, respond to hardware interrupts, and manage DMA transfers. This also means a vulnerable or malicious driver has the same privilege as the kernel itself — complete system control.
+
+**Q17. What is a rootkit driver and how does it work?**
+A rootkit driver is a malicious kernel module that replaces or hooks into legitimate kernel functions. Because it runs at Ring 0 — the same level as the kernel — it can intercept any system call, hide any process from ps, hide any file from ls, and hide any network connection from netstat. A keylogger rootkit hooks into the keyboard driver's interrupt handler at Step 8 of key processing — before the character reaches any application — and silently copies every keystroke. Detection requires memory forensics comparing live kernel memory against known good state, because the rootkit controls the normal detection tools.
+
+**Q18. What is an interrupt and how does the kernel use it for device communication?**
+An interrupt is a signal from hardware to the CPU meaning stop current work and handle this event immediately. When you press a key, the keyboard controller sends an interrupt signal. The CPU pauses whatever process is running, saves its state, and calls the kernel's interrupt handler for that interrupt number. The kernel calls the appropriate device driver which reads and processes the hardware event. After handling, the CPU restores the paused process and continues. Interrupts allow hardware to communicate with the CPU without the CPU constantly polling (checking) every device in a loop — polling would waste 100% CPU time.
+
+**Q19. How would you use lsmod and dmesg to investigate a potentially compromised system?**
+lsmod lists all currently loaded kernel modules — device drivers running in Ring 0. Compare the output against a known good baseline from a clean identical system. Any unexpected module not in the baseline is a rootkit candidate — investigate its name, size, and what it hooks into. dmesg shows the kernel event log with timestamps since boot — look for unexpected device connections at unusual times (USB drive at 3 AM), driver loading errors, and unusual kernel messages. Together they give you a picture of what kernel code is running and what hardware events occurred — two critical forensic data sources.
+
+**Q20. What is the significance of vendor ID and product ID in dmesg USB output?**
+Every USB device has a vendor ID (16-bit number identifying the manufacturer) and product ID (16-bit number identifying the specific device model). When a USB device connects, the kernel logs both in dmesg. idVendor=046d is Logitech. idVendor=1d6b is Linux Foundation (virtual devices). These IDs uniquely identify exactly which device was connected. In a forensic investigation, dmesg USB entries with timestamps tell you precisely what device was plugged in and when — a USB drive with vendor ID matching a known attacker tool, connected at 3 AM, is hard evidence of unauthorized access even if the drive was removed before investigators arrived.
