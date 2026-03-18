@@ -101,8 +101,8 @@
 - [✅] Device Drivers
 
 ## 4. Types of Operating Systems
-- [ ] Desktop OS
-- [ ] Server OS
+- [✅] Desktop OS
+- [✅] Server OS
 - [ ] Mobile OS
 - [ ] Embedded OS
 - [ ] Real-Time OS
