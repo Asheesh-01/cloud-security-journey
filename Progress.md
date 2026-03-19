@@ -103,7 +103,7 @@
 ## 4. Types of Operating Systems
 - [✅] Desktop OS
 - [✅] Server OS
-- [ ] Mobile OS
+- [✅] Mobile OS
 - [ ] Embedded OS
 - [ ] Real-Time OS
 
