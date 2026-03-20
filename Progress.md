@@ -104,8 +104,8 @@
 - [✅] Desktop OS
 - [✅] Server OS
 - [✅] Mobile OS
-- [ ] Embedded OS
-- [ ] Real-Time OS
+- [✅] Embedded OS
+- [✅] Real-Time OS
 
 ## 5. Windows OS Basics
 - [ ] Windows Architecture

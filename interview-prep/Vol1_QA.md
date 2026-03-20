@@ -307,3 +307,79 @@ lsmod lists all currently loaded kernel modules — device drivers running in Ri
 
 **Q20. What is the significance of vendor ID and product ID in dmesg USB output?**
 Every USB device has a vendor ID (16-bit number identifying the manufacturer) and product ID (16-bit number identifying the specific device model). When a USB device connects, the kernel logs both in dmesg. idVendor=046d is Logitech. idVendor=1d6b is Linux Foundation (virtual devices). These IDs uniquely identify exactly which device was connected. In a forensic investigation, dmesg USB entries with timestamps tell you precisely what device was plugged in and when — a USB drive with vendor ID matching a known attacker tool, connected at 3 AM, is hard evidence of unauthorized access even if the drive was removed before investigators arrived.
+
+
+
+
+# Topic 4 — Types of Operating Systems
+## Complete Interview Prep — All 5 Types
+
+---
+
+**Q1. Name the five types of operating systems and give one example of each.**
+
+Desktop OS — Windows 11, macOS, Ubuntu 24.04. Designed for single human user with GUI and keyboard/mouse interaction.
+
+Server OS — Ubuntu Server, Windows Server 2022, RHEL. Designed for 24/7 headless operation serving thousands of simultaneous remote users.
+
+Mobile OS — Android, iOS. Designed for smartphones and tablets with touchscreen, battery constraints, and sandboxed app model.
+
+Embedded OS — Router firmware, camera firmware, smart TV OS. Designed for one specific job, resource constrained, rarely or never updated.
+
+Real-Time OS — VxWorks, QNX, FreeRTOS. Designed for safety-critical systems requiring guaranteed response within fixed time deadlines.
+
+---
+
+**Q2. What is the key difference between a desktop OS and a server OS from a security perspective?**
+
+Desktop OS has a large attack surface — GUI, many applications installed, user interaction with external content (emails, downloads, USB drives). It is the most attacked OS type because humans are present and humans make mistakes. Server OS minimizes attack surface — no GUI, minimal software, no user sitting in front of it. But servers hold the highest value data — databases, credentials, user records — making them the highest value target. Desktop security focuses on endpoint protection. Server security focuses on service hardening, access control, and patch management.
+
+---
+
+**Q3. What is sandboxing in mobile OS and why does it matter for security?**
+
+Sandboxing means each app runs in an isolated container with its own private directory and its own user ID assigned by the OS. One app cannot read another app's data or access system resources without explicit permission. A malicious game cannot read your banking app's stored credentials. A compromised Instagram app cannot access your WhatsApp messages. Permission gates — camera, microphone, location, contacts — are enforced at the kernel level, not just the application level. Even if an app is malicious it cannot access hardware without the user granting permission. Sandboxing limits the blast radius of a compromised app to only what that app was permitted to access.
+
+---
+
+**Q4. What made Mirai botnet so dangerous and what OS type did it target?**
+
+Mirai targeted embedded OS devices — home routers, IP cameras, DVRs — that shipped with default credentials (admin/admin or admin/password) and were never updated. Mirai scanned the entire internet for these devices, tried default credential lists, and infected 600,000 devices. The danger came from three factors: scale (hundreds of thousands of devices), invisibility (owners had no idea their device was compromised), and the nature of embedded OS (no antivirus, no monitoring, no way for the owner to detect infection). All 600,000 devices were used simultaneously in a DDoS attack against DNS provider Dyn — taking down Twitter, Netflix, Reddit, and CNN. It demonstrated that insecure embedded devices in homes are a global infrastructure threat.
+
+---
+
+**Q5. What is the difference between hard real-time and soft real-time systems? Give a security example of each.**
+
+Hard real-time — missing the deadline is a system failure with physical consequences. The ABS brake system must respond within 5 milliseconds. A pacemaker must send a pulse every 800 milliseconds. Miss these deadlines and people die. Stuxnet attacked hard real-time PLCs controlling centrifuges — by modifying timing parameters it caused physical destruction of industrial equipment.
+
+Soft real-time — missing the deadline occasionally is acceptable but degrades quality. A video streaming system must deliver frames every 33 milliseconds for 30fps video. Missing one frame causes a stutter — annoying but not catastrophic. Security implication: a DDoS attack against a video conferencing platform degrades call quality (soft real-time failure) rather than causing physical harm.
+
+---
+
+**Q6. Why are RTOS systems now considered a critical security concern when they were historically ignored?**
+
+Historically RTOS systems were physically isolated — not connected to any network. Physical isolation was treated as security. No network connection meant no remote attack possible. This assumption is now broken. Industrial facilities connect RTOS systems to corporate networks for remote monitoring and management. Power grids connect substations for centralized control. Hospitals connect medical devices to patient management systems. Each connection creates a path from the internet to a system that was designed with zero security — no authentication, no encryption, no access control — because isolation was assumed. Stuxnet 2010 reached isolated Iranian centrifuge controllers through infected USB drives. Ukraine 2015 attackers reached power grid RTOS through the corporate network. The attack surface of RTOS systems has grown without any corresponding growth in their security capabilities.
+
+---
+
+**Q7. An attacker scans Shodan and finds your company's IP camera with default credentials exposed to the internet. Walk through what they can do.**
+
+Step 1 — attacker finds camera on Shodan showing manufacturer model and firmware version. Looks up default credentials for that model — admin/admin is common.
+
+Step 2 — attacker logs into camera web interface using default credentials. Camera is running embedded OS with no authentication beyond the default login.
+
+Step 3 — attacker has live video feed. Watches physical security — when guards move, when doors open, when the building is empty.
+
+Step 4 — camera is on the company network. Attacker uses the camera as a foothold to scan the internal network — other devices, servers, printers.
+
+Step 5 — attacker finds an internal server accessible from the camera's network segment. Moves laterally. Escalates from a camera to the company's internal systems.
+
+Step 6 — attacker exfiltrates data, deploys ransomware, or maintains persistent access — all originating from a security camera with a default password.
+
+Prevention: change default credentials immediately, update firmware, place IoT devices on isolated network segment (VLAN) with no access to main company network, monitor for unusual traffic from embedded devices.
+
+---
+
+**Q8. What is the key security difference between Android and iOS?**
+
+Android allows sideloading — installing apps from outside the Play Store as APK files. This flexibility means malicious apps can bypass Google's Play Store scanning entirely. An attacker can distribute a malicious APK through a phishing link, a fake website, or a third party app store. The user installs it and the malicious app runs in a sandbox — but with whatever permissions the user grants. iOS restricts installation to App Store only. Apple reviews every app before publishing. Sideloading is not possible on standard iOS without jailbreaking. Jailbreaking removes all iOS security restrictions — a jailbroken iPhone has the same risks as an uncontrolled Android device. Neither platform is immune to zero-click exploits like Pegasus which bypass all app-level security by exploiting kernel vulnerabilities directly.
