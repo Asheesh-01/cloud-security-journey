@@ -41,17 +41,18 @@ This roadmap builds all three simultaneously.
 | Pillar | What It Means | How |
 |--------|--------------|-----|
 | **Technical** | 80% hands-on. Every topic = commands run in terminal. | Notes + Labs + Screenshots every day |
-| **Public Proof** | Recruiters must find you before you apply. | GitHub daily · LinkedIn every 2 days · Hashnode per volume |
-| **Interview Ready** | 5 questions per topic from Day 1. Never wait. | `interview-prep/` folder — written answers for every topic |
+| **Public Proof** | Recruiters must find you before you apply. | GitHub daily · LinkedIn daily (first 3 months), then 3-4x/week · Hashnode per volume |
+| **Interview Ready** | 5 recall questions + 2 scenario questions per topic from Day 1. Never wait. | `interview-prep/` folder — written answers for every topic |
 
 ### Daily Non-Negotiable Rules
 
-- 2 hours minimum every single day — no exceptions
+- 1 hour minimum during exams — 2 hours on normal days — non-negotiable
 - 1 GitHub commit every day — even a typo fix counts
-- LinkedIn post every 2 days — 150 words — your own words — include GitHub link
+- LinkedIn post every day for first 3 months — then shift to 3-4 per week with higher quality
 - 1 Hashnode blog per volume completed — with screenshots and lab output
-- 5 interview questions answered in writing per topic
+- 5 recall questions + 2 scenario-based questions answered in writing per topic
 - 10 minutes English reading + 10 minutes rewriting — every day
+- After every volume completes: create the corresponding Cyber Dragon module before starting the next volume
 
 ### The 80/20 Model
 
@@ -60,6 +61,48 @@ This roadmap builds all three simultaneously.
 | 20% Theory | Read the concept. Understand the WHY. Draw the diagram by hand. |
 | 80% Practical | Run the commands. Break things. Fix them. Screenshot everything. |
 | 0% Passive Reading | Reading without running commands = zero learning. |
+
+### Failure Recovery Protocol
+
+If the streak breaks — no guilt, no self-punishment. Just do this:
+
+- Day 1 after break: Open Kali, run any 3 commands from the last topic, commit the output. Streak restarts.
+- Day 2: Revision day — read last topic notes, answer 2 interview questions from memory without looking.
+- Day 3: Return to normal flow. The break happened. It is over. Move forward.
+- One missed day is not failure. Quitting after one missed day is failure.
+- Never announce the break on LinkedIn. Just resume posting.
+
+### Recovery Weeks — Every 3 Months
+
+Every 3 months take one planned recovery week. No new learning. This protects the streak long term.
+
+- Revise the last volume's key concepts only — no new content
+- Answer 5 interview questions from memory without notes
+- Update `progress.md` with honest reflection
+- Post on LinkedIn about your 3-month milestone
+- Recovery week is NOT a break from GitHub or LinkedIn — just a break from new content
+
+### LinkedIn Phase Strategy
+
+- **Months 1-3:** Post every day. Goal is habit formation. Quality is secondary.
+- **Months 4-6:** Post 4-5 times per week. Start improving quality — better structure, real examples.
+- **Month 7 onwards:** Post 3-4 times per week. Full quality focus. Each post must provide one specific insight.
+
+### Mock Interview Plan
+
+Writing answers is not the same as speaking under pressure. Both must be practiced.
+
+- After Volume 06: First mock interview — 2 sessions on Pramp.com (free peer mock interviews)
+- After Volume 07: Second round — 2 more Pramp sessions focused on cloud security scenarios
+- After Volume 09: Final preparation — 3 recorded solo mock interviews, watch playback honestly
+
+### LinkedIn Outreach — Start Now Not At Volume 5
+
+- 5 new LinkedIn connections per week — cloud security professionals in India — start this week
+- Read their profile first — find something specific before connecting
+- Connection request with note — 300 characters max — reference what you found specifically
+- After they accept wait 2 days then send one specific question about their actual work
+- After a real conversation happens then ask about openings — never ask in first message
 
 </details>
 
@@ -100,6 +143,50 @@ Every README must have:
 Use Grammarly free version before publishing.
 
 </details>
+
+---
+
+<details>
+<summary><b>🐉 Cyber Dragon Integration Plan</b></summary>
+
+<br>
+
+Cyber Dragon and learning are one track. After every volume completes, create the corresponding platform module before starting the next volume.
+
+| After Volume | Content to Build on Cyber Dragon |
+|---|---|
+| Volume 01 | Beginner roadmap module — OS, networking, security basics with why-learn-this for each topic |
+| Volume 02 | OS security module — Windows and Linux internals written for security beginners |
+| Volume 03 | Networking module — the topic beginners find hardest — notes with real examples |
+| Volume 04 | Python for security module — scripting examples and guided lab exercises for users |
+| Volume 05 | Security foundations module — OWASP, CIA triad, CVE research guides — free content to build trust |
+| Volume 06 | SOC analyst roadmap — your most differentiated content — structured learning path with tools guide |
+| Volume 07 | AWS security module — paid course candidate — lab guides and quiz questions |
+| Volume 08-09 | Project guides — users follow your projects step by step with real output shown |
+
+</details>
+
+---
+
+## ⏱️ Volume Time Estimates
+
+Based on 1 hour daily during exam season and 2 hours on normal days.
+
+| Volume | Topics | Estimated Days | Estimated Weeks |
+|--------|--------|---------------|-----------------|
+| 00 | 5 topics | 5–7 days | 1 week |
+| 01 | 20 topics | 25–30 days | 4–5 weeks |
+| 02 | 18 topics | 22–28 days | 3–4 weeks |
+| 03 | 18 topics | 22–28 days | 3–4 weeks |
+| 04 | 18 topics + project | 25–35 days | 4–5 weeks |
+| 05 | 15 topics | 18–22 days | 3 weeks |
+| 06 | 13 topics | 18–24 days | 3–4 weeks |
+| 07 | 13 topics + 6 labs | 25–35 days | 4–5 weeks |
+| 08 | 11 topics + pipeline | 18–25 days | 3–4 weeks |
+| 09 | 8 projects | 40–60 days | 6–8 weeks |
+| 10 | Career prep | 15–20 days | 2–3 weeks |
+| 11 | Specialization | 30–45 days | 4–6 weeks |
+| **TOTAL** | **Full roadmap** | **250–350 days** | **36–50 weeks** |
 
 ---
 
@@ -174,7 +261,7 @@ Use Grammarly free version before publishing.
 - Create GitHub account and first repository
 - Install VS Code
 - Create your project folder structure
-- Create AWS Free Tier account at aws.amazon.com/free
+- Create AWS Free Tier account at aws.amazon.com/free — set billing alert at $5 immediately
 
 **Tools:** Ubuntu, Git, GitHub, VS Code, AWS Free Tier
 
@@ -202,7 +289,7 @@ Use Grammarly free version before publishing.
 - Ubuntu installed and working
 - Git + GitHub active
 - VS Code installed
-- AWS Free Tier account created
+- AWS Free Tier account created with billing alert at $5
 - LinkedIn profile exists
 - Introduction README published on GitHub
 
@@ -269,7 +356,7 @@ Use Grammarly free version before publishing.
 - File Systems — how files are organized
 - Device Drivers — how hardware talks to software
 
-**Tools:** `htop`, `ps`, `strace`, `uname -r`
+**Tools:** `htop`, `ps`, `strace`, `uname -r`, `free`, `stat`, `lsmod`, `dmesg`, `df`, `lsblk`
 
 </details>
 
@@ -285,6 +372,8 @@ Use Grammarly free version before publishing.
 - Real-Time OS — used in industrial systems
 
 **Tools:** None — concept only
+
+> 🔨 **Micro-Challenge after this topic:** Find your home router model number. Search nvd.nist.gov for CVEs related to your router firmware. Write a 100-word finding explaining what you found and commit it to GitHub.
 
 </details>
 
@@ -536,12 +625,16 @@ Use Grammarly free version before publishing.
 3. What is the difference between authentication and authorization?
 4. What is hashing? How is it different from encryption? Why do we hash passwords?
 5. A user says their computer is slow. As a security analyst, what are 3 security-related causes you would investigate?
+6. SCENARIO: You are a SOC analyst and receive an alert that a user account logged in from two countries simultaneously. Walk through your response step by step.
+7. SCENARIO: An executive reports their laptop is running hot and battery draining fast with no explanation. What security-related causes would you investigate and in what order?
 
 **✅ Volume 01 Complete When:**
 - All 20 topics done — notes + labs + screenshots committed to GitHub
-- Interview prep answers written for all 5 questions
+- Interview prep answers written for all 5 recall and 2 scenario questions
 - All commands run in terminal — no exceptions
 - 1 Hashnode blog published — roadmap overview post
+- Micro-challenge complete — router CVE research committed to GitHub
+- Cyber Dragon: beginner roadmap module draft created
 
 </details>
 
@@ -835,6 +928,18 @@ Screenshot the output. Write a 200-word analysis of what it found. This is your 
 
 ---
 
+**🔨 Volume 02 Mini Project — Build Before Volume 03**
+
+Build a Linux hardening script that:
+- Checks for SUID binaries incorrectly set
+- Checks `/etc/shadow` permissions are correctly restricted
+- Lists all currently open ports and flags risky ones
+- Generates a simple text report with findings
+
+Commit to GitHub with README explaining what it does.
+
+---
+
 **📝 Volume 02 Interview Prep — Write answers in `interview-prep/Vol2_QA.md`**
 
 1. What is the Windows Registry? Name three hives and explain what each stores.
@@ -842,12 +947,16 @@ Screenshot the output. Write a 200-word analysis of what it found. This is your 
 3. What is SUID? Give a security risk example of SUID being set incorrectly.
 4. What are Windows Event IDs 4624, 4625, and 4648? Why do security analysts care about these?
 5. What is the difference between `/etc/passwd` and `/etc/shadow`? Why does this separation exist?
+6. SCENARIO: During an investigation you find a process called svchost.exe running from C:\Users\Public instead of C:\Windows\System32. Is this normal? What do you do next?
+7. SCENARIO: A Linux server shows 500 failed login attempts in auth.log from IP 45.33.32.156 over the last 10 minutes. Walk through your complete response.
 
 **✅ Volume 02 Complete When:**
 - All 18 topics done — notes + labs + screenshots committed
 - Lynis scan done — screenshot + 200-word analysis committed
-- Interview prep answers written for all 5 questions
+- Mini project complete and committed with README
+- Interview prep answers written for all 5 recall and 2 scenario questions
 - 1 Hashnode blog published for this volume
+- Cyber Dragon: OS security module draft created
 
 </details>
 
@@ -1163,6 +1272,18 @@ Memorize these 20 ports without looking:
 
 ---
 
+**🔨 Volume 03 Mini Project — Build Before Volume 04**
+
+Build a Python network scanner that:
+- Discovers live hosts on your local subnet
+- Lists open ports for each discovered host
+- Flags risky open services — port 23 Telnet, port 21 FTP, port 2375 Docker
+- Outputs a formatted text report with findings
+
+Commit to GitHub with full README. Share with one LinkedIn connection and ask for honest technical feedback.
+
+---
+
 **📝 Volume 03 Interview Prep — Write answers in `interview-prep/Vol3_QA.md`**
 
 1. Walk through exactly what happens when you type google.com in a browser and press Enter. Cover DNS, TCP, and HTTP.
@@ -1170,14 +1291,19 @@ Memorize these 20 ports without looking:
 3. What is ARP spoofing? How would you detect it?
 4. A firewall blocks port 443 outbound. What service is affected and why would a security team do this?
 5. What is the difference between IDS and IPS? Where would you place each in a network?
+6. SCENARIO: You capture network traffic and see regular outbound connections every 60 seconds to an unknown IP on a non-standard port. What do you suspect and what do you do next?
+7. SCENARIO: A developer says their application cannot connect to the database on port 5432. Walk through how you would diagnose this as a security analyst.
 
 **✅ Volume 03 Complete When:**
 - All 18 topics done — notes + labs + screenshots committed
 - Wireshark: captured your own HTTP and DNS traffic — identified 3-way handshake in a PCAP
 - nmap: scanned your own VM — documented findings
 - 20 ports memorized — tested without looking
-- Interview prep answers written for all 5 questions
+- Mini project complete and committed with README
+- External validation: shared network scanner with one LinkedIn connection and received feedback
+- Interview prep answers written for all 5 recall and 2 scenario questions
 - 1 Hashnode blog published for this volume
+- Cyber Dragon: networking module draft created
 
 </details>
 
@@ -1487,12 +1613,15 @@ GitHub: Push to a separate repo named security-scripts
 3. What does a regular expression for matching an IP address look like? Explain each part.
 4. How would you use Python to read a log file and extract all lines containing the word ERROR?
 5. What is boto3? Write the Python code to list all S3 buckets in an AWS account.
+6. SCENARIO: You are given a 500MB auth.log file and asked to find brute force attacks. Write the approach for a Python script to do this and explain your logic for each step.
+7. SCENARIO: Your Python script runs perfectly on your local machine but fails in production with a ModuleNotFoundError. What are the first 3 things you check and why?
 
 **✅ Volume 04 Complete When:**
 - All 18 topics done — notes + scripts + screenshots committed
 - Log Analyzer project built and pushed to GitHub with full README
-- Interview prep answers written for all 5 questions
+- Interview prep answers written for all 5 recall and 2 scenario questions
 - 1 Hashnode blog published for this volume
+- Cyber Dragon: Python for security module draft created
 
 </details>
 
@@ -1721,16 +1850,35 @@ Also cover: Cookies, Sessions, JWT tokens
 </details>
 
 <details>
-<summary>Topic 14 — Compliance Intro</summary>
+<summary>Topic 14 — Compliance and Frameworks</summary>
 
 <br>
 
 - NIST Cybersecurity Framework — 5 functions: Identify, Protect, Detect, Respond, Recover
 - ISO 27001 — international security management standard overview
+- CIS Benchmarks — hardening standards for OS, cloud, and applications — 40-50% of Indian interviews ask about this
+- SOC 2 basics — what it is, Type 1 vs Type 2, why clients ask for it
+- PCI-DSS awareness — payment card industry standard — required for fintech roles
 - India DPDP Act — Digital Personal Data Protection Act
 - RBI Cloud Security Guidelines — for Indian banking and fintech context
 
-**Tools:** Read official documentation for each
+**Tools:** Read official documentation for NIST, CIS Benchmarks, ISO 27001
+
+</details>
+
+<details>
+<summary>Topic 15 — AI and LLM Security Awareness</summary>
+
+<br>
+
+- What prompt injection is — attacker manipulates AI model through crafted input
+- Model supply chain attacks — compromised training data or model weights
+- AI-assisted threat detection — how security teams use AI for anomaly detection
+- Risks of AI tools in security operations — false confidence, hallucination in security reports
+- Emerging interview topic in 2025-2026 — awareness level only for now
+- Read 2 recent articles on AI security before marking complete
+
+**Tools:** None — concept only
 
 </details>
 
@@ -1743,13 +1891,18 @@ Also cover: Cookies, Sessions, JWT tokens
 3. What is a CVE? What does CVSS score 9.8 tell you? What would you do about it?
 4. Explain the CIA Triad using a real-world bank as the example for each property.
 5. What is Zero Trust? Why is "trust but verify" no longer sufficient in cloud environments?
+6. SCENARIO: You are reviewing a web application login form for security. Name 3 specific security tests you would run and explain what you are looking for in each.
+7. SCENARIO: A client says they need to be PCI-DSS compliant for their payment system. What does that mean and what are the first 3 questions you ask them?
 
 **✅ Volume 05 Complete When:**
-- All 14 topics done — notes + labs + screenshots committed
+- All 15 topics done — notes + labs + screenshots committed
 - Real breach mapped for every major topic — 3 sentences each
 - OWASP Juice Shop deployed locally — 3 vulnerabilities found and documented
-- Interview prep answers written for all 5 questions
+- Interview prep answers written for all 5 recall and 2 scenario questions
 - 1 Hashnode blog published for this volume
+- Google Cybersecurity Certificate audit started on Coursera — free
+- Apply for one internship — even if not feeling ready — rejection feedback is more valuable than waiting
+- Cyber Dragon: security foundations module draft created
 - ✅ Start applying for internships now
 
 </details>
@@ -1949,6 +2102,25 @@ Also cover: Cookies, Sessions, JWT tokens
 
 </details>
 
+<details>
+<summary>Topic 13 — Hands-On Threat Hunt Scenario (Mandatory)</summary>
+
+<br>
+
+Complete this guided scenario before moving to Volume 07:
+
+- **Hypothesis:** An attacker established persistence on a Linux system using a cron job
+- Check `/var/log/auth.log` for unexpected root logins around the suspected time
+- Check `/var/spool/cron`, `/etc/cron.d`, and `/etc/crontab` for suspicious entries
+- Check `/tmp` and `/dev/shm` for executable files that should not be there
+- **Simulate:** Add a suspicious cron job yourself, hunt it, document every step, then remove it
+- Write a 200-word threat hunt report — hypothesis, evidence found, conclusion, recommendation
+- Commit the report to GitHub
+
+**Tools:** `crontab`, `grep`, `find`, `ps`, `auditd`
+
+</details>
+
 ---
 
 **📝 Volume 06 Interview Prep — Write answers in `interview-prep/Vol6_QA.md`**
@@ -1958,13 +2130,19 @@ Also cover: Cookies, Sessions, JWT tokens
 3. What is a Sigma rule? Write a simple one for detecting multiple failed SSH logins.
 4. What is the Cyber Kill Chain? Map a ransomware attack to each stage.
 5. You see svchost.exe making outbound connections to an IP in Russia. What do you do?
+6. SCENARIO: You receive 500 alerts in your SIEM in one hour during a normal business day. How do you prioritize which ones to investigate first and which to defer?
+7. SCENARIO: Walk through your threat hunt report from the cron job scenario you completed in Topic 13.
 
 **✅ Volume 06 Complete When:**
-- All 12 topics done — notes + labs + screenshots committed
+- All 13 topics done including the hands-on threat hunt scenario — notes + labs + screenshots committed
 - Wazuh installed — 3 custom rules written — alerts generated and screenshot
 - MITRE ATT&CK: 5 techniques mapped to Linux commands in a cheatsheet on GitHub
-- Interview prep answers written for all 5 questions
+- Threat hunt report written and committed
+- Mock interview round 1 complete — 2 Pramp.com sessions done
+- Interview prep answers written for all 5 recall and 2 scenario questions
 - 1 Hashnode blog published for this volume
+- Actively applying for SOC Analyst fresher roles
+- Cyber Dragon: SOC analyst roadmap module draft created
 - ✅ Actively applying for SOC Analyst fresher roles now
 
 </details>
@@ -1976,7 +2154,7 @@ Also cover: Cookies, Sessions, JWT tokens
 
 <br>
 
-> AWS first. Then Azure. Then GCP. This is your specialization.
+> AWS first. Then Azure dedicated coverage. Then GCP awareness. This is your specialization.
 >
 > ✅ Aggressively apply for cloud security roles after this volume.
 
@@ -2139,6 +2317,55 @@ Also cover: Cookies, Sessions, JWT tokens
 
 </details>
 
+<details>
+<summary>Topic 11 — Azure Security Dedicated Coverage</summary>
+
+<br>
+
+> ⚠️ Do not skip this. TCS, Wipro, Infosys, Cognizant are heavily Azure-first. AWS-only knowledge limits you to startups.
+
+- Azure Active Directory — users, groups, roles, service principals
+- Azure RBAC — Role Based Access Control — how permissions work in Azure
+- Azure Key Vault — secrets management in Azure
+- Microsoft Defender for Cloud — security posture management
+- Azure Monitor and Log Analytics — equivalent of CloudTrail and CloudWatch
+- Azure Security Center — centralized security management
+- Common Azure misconfigurations — overly permissive RBAC, public storage blobs, weak NSG rules
+
+**Tools:** Azure Portal free tier, Azure CLI
+
+</details>
+
+<details>
+<summary>Topic 12 — Cloud Compliance and Benchmarks</summary>
+
+<br>
+
+- CIS Benchmarks for AWS — specific hardening recommendations — how to apply and check each
+- CIS Benchmarks for Azure — same hardening standards applied to Azure resources
+- AWS Security Hub — aggregates compliance findings from CIS and other standards
+- SOC 2 Type 1 vs Type 2 — what clients ask for and why it matters
+- PCI-DSS in cloud — which controls apply to cloud-hosted payment processing systems
+- Compliance as code — how Checkov and AWS Config Rules enforce compliance automatically
+
+**Tools:** AWS Security Hub, Prowler for CIS checks
+
+</details>
+
+<details>
+<summary>Topic 13 — GCP Security Awareness</summary>
+
+<br>
+
+- GCP IAM — projects, service accounts, roles — similarities and differences from AWS
+- GCP Cloud Logging — equivalent of CloudTrail in Google Cloud
+- GCP Security Command Center — centralized security findings in GCP
+- When GCP comes up in Indian jobs — less common than AWS and Azure but growing
+
+**Tools:** GCP Console free tier
+
+</details>
+
 ---
 
 **🔨 Mandatory AWS Free Tier Labs — Complete All 6**
@@ -2173,13 +2400,19 @@ Every ₹20+ LPA interviewer will ask you to walk through this.
 3. What is SSRF? How does it apply to the AWS EC2 metadata service (IMDSv1 vs IMDSv2)?
 4. Write an IAM policy in JSON that allows read-only access to one specific S3 bucket.
 5. What does CloudTrail capture? What does CloudWatch capture? Are they the same?
+6. SCENARIO: A client uses Azure as their primary cloud and asks you to review their security posture for the first time. What are the first 5 things you check and why?
+7. SCENARIO: Your Prowler scan of a client's AWS account returns 47 findings of varying severity. How do you prioritize what to fix first and how do you present this to non-technical management?
 
 **✅ Volume 07 Complete When:**
-- All 10 topics done — notes + labs + screenshots committed
+- All 13 topics done — notes + labs + screenshots committed
 - All 6 AWS Free Tier labs completed
 - Signature project pushed to GitHub with full README
-- Interview prep answers written for all 5 questions
+- Mock interview round 2 complete — 2 more Pramp.com sessions done
+- External validation: one cloud security engineer has reviewed your scanner project
+- Interview prep answers written for all 5 recall and 2 scenario questions
 - 1 Hashnode blog published for this volume
+- Aggressively applying for cloud security roles
+- Cyber Dragon: AWS security module draft created
 - ✅ Aggressively applying for cloud security roles now
 
 </details>
@@ -2373,11 +2606,13 @@ Show this running live in an interview.
 3. What is Checkov? Run it and explain one finding you got from your Terraform code.
 4. Write a cron job that runs a Python script every day at 2 AM.
 5. What is the difference between SAST and DAST? Give a tool example for each.
+6. SCENARIO: You are setting up a CI/CD pipeline for a team of 10 developers. What security gates do you add and at which specific stages of the pipeline and why?
+7. SCENARIO: An Ansible hardening playbook runs successfully on 9 out of 10 servers but fails on 1 server with a permission error. How do you debug this and what do you check first?
 
 **✅ Volume 08 Complete When:**
 - All 11 topics done — notes + scripts + screenshots committed
 - Automated pipeline running in GitHub Actions on your aws-security-scanner repo
-- Interview prep answers written for all 5 questions
+- Interview prep answers written for all 5 recall and 2 scenario questions
 - 1 Hashnode blog published for this volume
 
 </details>
@@ -2418,6 +2653,10 @@ Show this running live in an interview.
 - Pin your top 3 repos on your GitHub profile
 - Write a Hashnode blog post for each major project
 
+**Mock Interview Final Round:**
+- Complete 3 recorded solo mock interviews — set a timer, answer questions out loud, record yourself
+- Watch each playback honestly — identify gaps before sending placement applications
+
 </details>
 
 ---
@@ -2457,10 +2696,10 @@ Show this running live in an interview.
 | Headline | Cloud Security Engineer \| AWS \| Linux \| Blue Team \| B.Tech 2026 |
 | About | 3 paragraphs: who you are + what you are building + what you are looking for. 150 words max. |
 | Featured | Pin: GitHub repo + Hashnode blog + your best LinkedIn post |
-| Skills | Cloud Security, AWS, Linux, Python, Networking, SIEM, Incident Response |
-| Posts | Every 2 days during active learning. 150 words. Your own words. |
+| Skills | Cloud Security, AWS, Linux, Python, Networking, SIEM, Incident Response, Azure, Detection Engineering |
+| Posts | Daily for first 3 months. Then 3-4 per week with higher quality. 150 words. Your own words. |
 
-**Connection strategy:** 5 cloud security professionals per week. Comment on their posts before connecting.
+**Connection strategy:** 5 cloud security professionals per week. Comment on their posts before connecting. Start now — not at Volume 5.
 
 </details>
 
@@ -2521,13 +2760,15 @@ Show this running live in an interview.
 
 <br>
 
+> ⚠️ Do not spend money before first internship income. Free options first. Paid only after stipend arrives.
+
 | Certification | When to Take | Cost | Priority |
 |---------------|-------------|------|----------|
-| Google Cybersecurity Certificate | After Vol 5 | Free (audit) | Optional |
-| CompTIA Security+ | After Vol 6 | ₹25,000 | HIGH |
-| AWS Cloud Practitioner | After Vol 7 | ₹8,000 | HIGH |
+| Google Cybersecurity Certificate | After Vol 5 | Free (audit on Coursera) | FIRST — free, no reason to delay |
+| CompTIA Security+ | After Vol 6 AND after first internship income | ₹25,000 | HIGH — do not buy before income |
+| AWS Cloud Practitioner | After Vol 7 AND after first internship income | ₹8,000 | HIGH — minimum for cloud roles |
 | CompTIA CySA+ | 6 months after Security+ | ₹25,000 | MEDIUM |
-| AWS Security Specialty | 12–18 months hands-on | ₹25,000 | HIGH |
+| AWS Security Specialty | 12–18 months hands-on after Cloud Practitioner | ₹25,000 | HIGH |
 | Azure AZ-500 | After AWS Security Specialty | ₹15,000 | MEDIUM |
 
 </details>
@@ -2551,12 +2792,23 @@ Show this running live in an interview.
 
 <br>
 
+**Topics:**
 - AWS Security Hub — centralized security findings management
 - AWS Config — compliance as code, Config Rules, auto-remediation
 - AWS GuardDuty — threat detection, Lambda auto-response
 - AWS Security Lake — centralized cloud security data lake
 - Zero Trust Architecture on AWS
 - CSPM — Prisma Cloud, Wiz (concepts)
+
+**Labs:**
+- Build a GuardDuty alert that automatically isolates an EC2 instance using Lambda
+- Write 5 AWS Config Rules that enforce your organization's security policy
+- Create a Security Hub dashboard showing compliance posture across CIS Benchmarks
+
+**Interview Prep:**
+- What is AWS Security Hub and how does it relate to AWS Config and GuardDuty?
+- Design a zero-trust architecture for a 3-tier web application on AWS. Walk through every component.
+- SCENARIO: GuardDuty fires an alert for unusual API calls from an EC2 instance. Walk through your response.
 
 **Signature Project:** Full AWS security architecture with auto-remediation using Lambda + GuardDuty + Config
 
@@ -2569,12 +2821,23 @@ Show this running live in an interview.
 
 <br>
 
+**Topics:**
 - Sigma rule writing — advanced detection logic
 - YARA rules — malware signature writing
 - Splunk SPL — deep query language for detection
 - Elastic SIEM — detection rules in Kibana
 - Custom threat intelligence feeds
 - Purple team exercises — run the attack and build the detection simultaneously
+
+**Labs:**
+- Write 10 Sigma rules covering 10 different MITRE ATT&CK techniques
+- Build a Splunk dashboard showing top 5 attack indicators from your lab environment
+- Run a purple team exercise: simulate lateral movement, detect it, improve the detection rule
+
+**Interview Prep:**
+- What is a Sigma rule? Write one for detecting PowerShell execution with encoded commands.
+- What is a YARA rule? Write one for detecting a file containing a specific string pattern.
+- SCENARIO: Your SIEM generates 10,000 alerts per day and analysts handle 50. How do you improve this?
 
 **Signature Project:** Detection rule library for 10 MITRE ATT&CK techniques with test cases
 
@@ -2587,11 +2850,22 @@ Show this running live in an interview.
 
 <br>
 
+**Topics:**
 - AWS enumeration techniques — what attackers look for
 - Pacu — AWS exploitation framework (defensive study only)
 - CloudGoat — intentionally vulnerable AWS lab by Rhino Security Labs
 - Azure attack paths — BloodHound for Azure
 - Container escape techniques and defenses
+
+**Labs:**
+- Complete 3 CloudGoat scenarios and write a pentest report for each
+- Map your findings to MITRE ATT&CK Cloud matrix
+- Write remediation recommendations for every finding
+
+**Interview Prep:**
+- Walk through a cloud penetration test methodology from recon to report.
+- What is privilege escalation in AWS IAM? Give 2 real examples.
+- SCENARIO: You are given read-only access to an AWS account for a pentest. What do you enumerate first and why?
 
 **Signature Project:** Full cloud pentest report on CloudGoat environment
 
@@ -2628,6 +2902,11 @@ Show this running live in an interview.
 | OpenSSL | Vol 5 | Cryptography — encryption, hashing, certificates |
 | Ansible | Vol 8 | Automation and Linux hardening playbooks |
 | strace | Vol 1–2 | System call tracer — see kernel boundary |
+| boto3 | Vol 4, 7 | AWS SDK for Python |
+| Azure CLI | Vol 7 | Azure command line for security tasks |
+| AWS Security Hub | Vol 11A | Centralized compliance and findings management |
+| Terraform | Vol 7–8 | Infrastructure as Code |
+| GitHub Actions | Vol 8 | CI/CD pipeline automation |
 
 </details>
 
@@ -2636,19 +2915,19 @@ Show this running live in an interview.
 ## 🔴 Final Rules
 
 <details>
-<summary><b>10 Rules That Decide Your Outcome — Read Every Morning</b></summary>
+<summary><b>18 Rules That Decide Your Outcome — Read Every Morning</b></summary>
 
 <br>
 
-**RULE 1:** No video lectures. No Udemy. No YouTube tutorials. Only terminal, documentation, and this roadmap.
+**RULE 1:** No passive learning. Every concept needs a command run or a thing built. Reading without terminal = zero learning.
 
 **RULE 2:** Every day you do not commit to GitHub is a day a recruiter sees an empty contribution graph.
 
-**RULE 3:** English is a technical skill. Write every README, post, and report like a professional.
+**RULE 3:** English is a technical skill. Write every README, post, and report like a professional. You are evaluated on this.
 
 **RULE 4:** You are not studying security. You are building a product — yourself as a Cloud Security Engineer.
 
-**RULE 5:** The streak is everything. One missed day kills momentum. Two becomes a habit. Three means starting over.
+**RULE 5:** Streak breaks happen. Recovery protocol: Day 1 run 3 commands and commit. Day 2 revise. Day 3 resume. No guilt. Just restart.
 
 **RULE 6:** Never list a skill you cannot answer three interview questions about. Period.
 
@@ -2659,6 +2938,22 @@ Show this running live in an interview.
 **RULE 9:** Your only competitor is yesterday's version of you. Ignore everyone else.
 
 **RULE 10:** The highest package goes to the person with the best story — clear journey + signature project + public presence + ability to explain what they know. Build all four simultaneously.
+
+**RULE 11:** Cyber Dragon and learning are one track. After every volume create the corresponding platform module. Every concept you learn becomes content. Every feature you build teaches security implementation.
+
+**RULE 12:** This roadmap is final. No new planning documents until Volume 01 is complete. Execution moves you forward. Plans do not.
+
+**RULE 13:** Certifications cost money you do not have yet. Free Google certificate first. Paid only after first internship income.
+
+**RULE 14:** LinkedIn outreach starts now. Not at Volume 5. Relationships take months to build. 5 connections per week starting this week.
+
+**RULE 15:** Projects start at Volume 01 end — not Volume 09. Every volume has a mini project. Build as you learn.
+
+**RULE 16:** Recovery week every 3 months — revision only, no new content, update progress.md, post milestone on LinkedIn.
+
+**RULE 17:** Mock interviews are mandatory. Pramp after Volume 06 and Volume 07. Recorded solo sessions after Volume 09. Writing answers is not the same as speaking under pressure.
+
+**RULE 18:** Azure matters for Indian MNCs. Do not skip Volume 07 Topic 11. TCS, Wipro, Infosys, Cognizant are Azure-first. AWS-only knowledge limits your options.
 
 </details>
 
