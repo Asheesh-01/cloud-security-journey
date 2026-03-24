@@ -168,7 +168,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 ## 5. Windows OS Basics
 - [✅] Windows Architecture
 - [✅] NTFS File System
-- [ ] Folder Structure — C:\Windows, C:\Users, C:\Program Files
+- [✅] Folder Structure — C:\Windows, C:\Users, C:\Program Files
 - [ ] Services — what they are and how to view them
 - [ ] Registry — what it stores and why attackers target it
 - [ ] Users & Groups
