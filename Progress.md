@@ -169,7 +169,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [✅] Windows Architecture
 - [✅] NTFS File System
 - [✅] Folder Structure — C:\Windows, C:\Users, C:\Program Files
-- [✅] Services — what they are and how to view them
+- [ ✅ ] Services — what they are and how to view them
 - [✅] Registry — what it stores and why attackers target it
 - [✅] Users & Groups
 - [✅] Event Viewer — where Windows logs are stored
