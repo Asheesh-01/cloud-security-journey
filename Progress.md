@@ -187,9 +187,9 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 *(Tools: bash, apt, uname, ls, pwd)*
 
 ## 7. What is Software
-- [ ] Application Software vs System Software
-- [ ] Open Source vs Closed Source — security implications of each
-- [ ] How software is installed on Linux vs Windows
+- [✅] Application Software vs System Software
+- [✅] Open Source vs Closed Source — security implications of each
+- [✅] How software is installed on Linux vs Windows
 
 ## 8. What is Programming
 - [ ] What is Code *(Tools: Python)*

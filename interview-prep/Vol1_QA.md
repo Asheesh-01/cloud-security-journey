@@ -383,3 +383,18 @@ Prevention: change default credentials immediately, update firmware, place IoT d
 **Q8. What is the key security difference between Android and iOS?**
 
 Android allows sideloading — installing apps from outside the Play Store as APK files. This flexibility means malicious apps can bypass Google's Play Store scanning entirely. An attacker can distribute a malicious APK through a phishing link, a fake website, or a third party app store. The user installs it and the malicious app runs in a sandbox — but with whatever permissions the user grants. iOS restricts installation to App Store only. Apple reviews every app before publishing. Sideloading is not possible on standard iOS without jailbreaking. Jailbreaking removes all iOS security restrictions — a jailbroken iPhone has the same risks as an uncontrolled Android device. Neither platform is immune to zero-click exploits like Pegasus which bypass all app-level security by exploiting kernel vulnerabilities directly.
+
+
+**Interview Prep**
+
+What is the difference between /bin and /sbin? Which is for regular users?
+Why is /tmp a top malware staging location on Linux?
+What does SUID do? Give a legitimate example and a security risk example.
+A file shows permissions 600. Write out exactly what this means for owner, group, and others.
+What is the difference between apt update and apt upgrade? Why does the order matter?
+
+Scenario questions:
+
+SCENARIO: You are investigating a compromised Linux server. Name the first four directories you check and exactly what you look for in each.
+SCENARIO: You find a file in /tmp with permissions 777 and SUID set. It is owned by root. What do you do?
+
