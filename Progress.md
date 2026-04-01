@@ -192,15 +192,15 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [✅] How software is installed on Linux vs Windows
 
 ## 8. What is Programming
-- [ ] What is Code *(Tools: Python)*
-- [ ] Compiled vs Interpreted
-- [ ] High-Level vs Low-Level
-- [ ] Why Python is used in security — automation, scripting, tool building
+- [✅] What is Code *(Tools: Python)*
+- [✅] Compiled vs Interpreted
+- [✅] High-Level vs Low-Level
+- [✅] Why Python is used in security — automation, scripting, tool building
 
 ## 9. What is the Internet
-- [ ] Network of Networks *(Tools: ping)*
-- [ ] ISP — Internet Service Provider
-- [ ] Client-Server Model — who requests, who responds
+- [✅] Network of Networks *(Tools: ping)*
+- [✅] ISP — Internet Service Provider
+- [✅] Client-Server Model — who requests, who responds
 
 ## 10. How the Internet Works
 - [ ] IP Address *(Tools: ping, traceroute)*

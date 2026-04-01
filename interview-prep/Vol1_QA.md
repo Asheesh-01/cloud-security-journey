@@ -398,3 +398,19 @@ Scenario questions:
 SCENARIO: You are investigating a compromised Linux server. Name the first four directories you check and exactly what you look for in each.
 SCENARIO: You find a file in /tmp with permissions 777 and SUID set. It is owned by root. What do you do?
 
+
+Recall questions (Topic 8):
+
+What is the difference between a compiler and an interpreter? Give one language example of each.
+What is a function in programming and why does it matter for writing security tools?
+Heartbleed was caused by a missing bounds check in C code. Explain in one sentence what that means and why it was dangerous.
+Why is Python preferred for security scripting over lower-level languages like C?
+What is the difference between source code and a binary?
+
+Recall questions (Topic 9):
+
+What is an IP address and what is a port? How do they work together to identify a specific service?
+What is DNS and what happens if DNS is compromised?
+What is the client-server model? Give one attack that targets the client and one that targets the server.
+What did the Mirai botnet exploit and what does this tell you about internet-connected devices?
+What command shows every router hop between your machine and a destination?
