@@ -414,3 +414,15 @@ What is DNS and what happens if DNS is compromised?
 What is the client-server model? Give one attack that targets the client and one that targets the server.
 What did the Mirai botnet exploit and what does this tell you about internet-connected devices?
 What command shows every router hop between your machine and a destination?
+
+
+## Interview Prep 
+
+1. Full google.com journey — DNS, TCP, HTTPS?
+2. TTL in DNS record vs TTL in IP packet — same or different?
+3. DNS cache poisoning — what is it and how does DNSSEC prevent it?
+4. Why is port 445 internet exposure unacceptable?
+5. What is NAT and why does it matter for forensics?
+6. Well-known port vs ephemeral port?
+7. SCENARIO: Outbound traffic to unknown IP port 4444 every 60 seconds?
+8. SCENARIO: Developer wants MySQL port 3306 open from internet?

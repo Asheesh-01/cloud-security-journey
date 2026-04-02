@@ -203,12 +203,12 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [✅] Client-Server Model — who requests, who responds
 
 ## 10. How the Internet Works
-- [ ] IP Address *(Tools: ping, traceroute)*
-- [ ] Domain Name *(Tools: nslookup)*
-- [ ] DNS — how domain names become IP addresses *(Tools: nslookup, dig)*
-- [ ] Routing — how packets travel *(Tools: traceroute)*
-- [ ] Packets — how data is broken up and sent
-- [ ] Ports — what they are and why they matter for security
+- [✅] IP Address *(Tools: ping, traceroute)*
+- [✅] Domain Name *(Tools: nslookup)*
+- [✅] DNS — how domain names become IP addresses *(Tools: nslookup, dig)*
+- [✅] Routing — how packets travel *(Tools: traceroute)*
+- [✅] Packets — how data is broken up and sent
+- [✅] Ports — what they are and why they matter for security
 
 ## 11. What is a Network
 - [ ] LAN — Local Area Network *(Tools: ifconfig, ip addr)*
