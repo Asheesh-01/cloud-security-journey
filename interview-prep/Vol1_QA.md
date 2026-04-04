@@ -417,7 +417,7 @@ What command shows every router hop between your machine and a destination?
 
 
 ## Interview Prep 
-
+# Topic - 10
 1. Full google.com journey — DNS, TCP, HTTPS?
 2. TTL in DNS record vs TTL in IP packet — same or different?
 3. DNS cache poisoning — what is it and how does DNSSEC prevent it?
@@ -426,3 +426,26 @@ What command shows every router hop between your machine and a destination?
 6. Well-known port vs ephemeral port?
 7. SCENARIO: Outbound traffic to unknown IP port 4444 every 60 seconds?
 8. SCENARIO: Developer wants MySQL port 3306 open from internet?
+
+
+## Interview Prep — 
+# Topic 11 — Networks:
+
+What is the difference between a LAN and a WAN? Give a security example for each.
+What is network segmentation and why does it matter? Use the Target breach as your example.
+What is a VLAN and how does it differ from a physical network separation?
+What is an ARP table and what security attack targets it?
+What is the difference between bandwidth and latency?
+
+# Topic 12 — Cybersecurity:
+
+What is the difference between a threat, a vulnerability, and a risk? Give a real example of all three from one breach.
+Explain the CIA Triad. Give one real attack that primarily violates each property.
+What is defense in depth? Why is one strong security control not enough?
+What is the principle of least privilege? Give a concrete example of it being violated.
+What is zero trust and why has it replaced the traditional perimeter security model?
+
+Scenario questions:
+
+SCENARIO: Your organization has one flat network where every device can reach every other device. Management says segmentation is too expensive. How do you make the business case for segmentation?
+SCENARIO: A new web application is being deployed. Walk through three CIA Triad risks and one control for each.

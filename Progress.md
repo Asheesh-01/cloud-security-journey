@@ -211,18 +211,18 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [✅] Ports — what they are and why they matter for security
 
 ## 11. What is a Network
-- [ ] LAN — Local Area Network *(Tools: ifconfig, ip addr)*
-- [ ] WAN — Wide Area Network
-- [ ] MAN — Metropolitan Area Network
-- [ ] PAN — Personal Area Network
+- [✅] LAN — Local Area Network *(Tools: ifconfig, ip addr)*
+- [✅] WAN — Wide Area Network
+- [✅] MAN — Metropolitan Area Network
+- [✅] PAN — Personal Area Network
 
 ## 12. What is Cybersecurity
-- [ ] Why Cybersecurity Exists
-- [ ] Digital Assets
-- [ ] Threat — definition and real example
-- [ ] Vulnerability — definition and real example
-- [ ] Risk — definition and real example
-- [ ] Difference between threat, vulnerability, and risk — top interview question
+- [✅] Why Cybersecurity Exists
+- [✅] Digital Assets
+- [✅] Threat — definition and real example
+- [✅] Vulnerability — definition and real example
+- [✅] Risk — definition and real example
+- [✅] Difference between threat, vulnerability, and risk — top interview question
 
 ## 13. Types of Cyber Threats
 - [ ] Malware — umbrella term *(Tools: ClamAV)*
