@@ -225,22 +225,22 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [✅] Difference between threat, vulnerability, and risk — top interview question
 
 ## 13. Types of Cyber Threats
-- [ ] Malware — umbrella term *(Tools: ClamAV)*
-- [ ] Virus — how it spreads
-- [ ] Worm — self-replicating, no user action needed
-- [ ] Trojan — disguised as legitimate software
-- [ ] Ransomware — encrypts files, demands payment — Colonial Pipeline 2021
-- [ ] Spyware — silently collects data
-- [ ] Adware
-- [ ] Botnet — network of infected machines — Mirai 2016
+- [✅] Malware — umbrella term *(Tools: ClamAV)*
+- [✅] Virus — how it spreads
+- [✅] Worm — self-replicating, no user action needed
+- [✅] Trojan — disguised as legitimate software
+- [✅] Ransomware — encrypts files, demands payment — Colonial Pipeline 2021
+- [✅] Spyware — silently collects data
+- [✅] Adware
+- [✅] Botnet — network of infected machines — Mirai 2016
 
 ## 14. Hacker Types
-- [ ] Black Hat — malicious, illegal
-- [ ] White Hat — ethical, hired to test
-- [ ] Gray Hat — in between
-- [ ] Script Kiddie — uses tools without understanding them
-- [ ] Hacktivist — hacks for a political cause
-- [ ] Nation State — government-sponsored attacker, most sophisticated
+- [✅] Black Hat — malicious, illegal
+- [✅] White Hat — ethical, hired to test
+- [✅] Gray Hat — in between
+- [✅] Script Kiddie — uses tools without understanding them
+- [✅] Hacktivist — hacks for a political cause
+- [✅] Nation State — government-sponsored attacker, most sophisticated
 
 ## 15. Basic Security Principles
 - [ ] CIA Triad — Confidentiality, Integrity, Availability — memorize with real attack example for each
