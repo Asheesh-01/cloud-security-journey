@@ -244,7 +244,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 
 ## 15. Basic Security Principles
 - [✅] CIA Triad — Confidentiality, Integrity, Availability — memorize with real attack example for each
-- [ ] Defense in Depth — multiple security layers, assume breach at every level
+- [✅] Defense in Depth — multiple security layers, assume breach at every level
 - [ ] Least Privilege — only the access needed, nothing more
 - [ ] Zero Trust — never trust, always verify
 
