@@ -246,7 +246,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [✅] CIA Triad — Confidentiality, Integrity, Availability — memorize with real attack example for each
 - [✅] Defense in Depth — multiple security layers, assume breach at every level
 - [✅] Least Privilege — only the access needed, nothing more
-- [ ] Zero Trust — never trust, always verify
+- [✅] Zero Trust — never trust, always verify
 
 ## 16. Authentication & Authorization
 - [ ] Authentication — proving who you are

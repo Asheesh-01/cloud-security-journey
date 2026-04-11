@@ -449,3 +449,21 @@ Scenario questions:
 
 SCENARIO: Your organization has one flat network where every device can reach every other device. Management says segmentation is too expensive. How do you make the business case for segmentation?
 SCENARIO: A new web application is being deployed. Walk through three CIA Triad risks and one control for each.
+
+
+## Interview Prep — Topic 15 — 
+
+Recall questions:
+
+What is the CIA Triad? Give one real attack that violates each property.
+What is the difference between confidentiality and integrity? Can you have one without the other?
+What is defense in depth? Why did the Target breach fail despite having FireEye deployed?
+What is least privilege? How did the Capital One breach exploit its violation?
+What is Zero Trust? What assumption does it replace and why did that assumption fail?
+What is the difference between RTO and RPO?
+What is a SPOF and how does redundancy address it?
+
+Scenario questions:
+8. SCENARIO: A developer asks for admin access to production servers because it is more convenient than requesting specific permissions. What do you say and what do you recommend instead?
+9. SCENARIO: Your organization uses a traditional VPN. Employees authenticate once and are trusted for the rest of the day. A CISO asks you to evaluate this against Zero Trust principles. What do you find and what do you recommend?
+10. SCENARIO: You discover that your company's S3 buckets are accessible by an IAM role attached to a public-facing EC2 instance. Walk through the risk and your recommended fix.
