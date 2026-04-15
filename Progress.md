@@ -253,7 +253,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [✅] Authorization — what you are allowed to do after proving identity
 - [✅] Username / Password — why this alone is insufficient
 - [✅] MFA — something you know plus something you have *(Tools: Google Authenticator)*
-- [ ] Biometrics
+- [✅] Biometrics
 - [ ] Tokens
 
 ## 17. Data Protection Basics
