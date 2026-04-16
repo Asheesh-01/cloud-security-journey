@@ -254,7 +254,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [✅] Username / Password — why this alone is insufficient
 - [✅] MFA — something you know plus something you have *(Tools: Google Authenticator)*
 - [✅] Biometrics
-- [ ] Tokens
+- [✅] Tokens
 
 ## 17. Data Protection Basics
 - [ ] Encryption — scrambles data, reversible with the right key *(Tools: openssl)*

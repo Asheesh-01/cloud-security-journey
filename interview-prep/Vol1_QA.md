@@ -467,3 +467,22 @@ Scenario questions:
 8. SCENARIO: A developer asks for admin access to production servers because it is more convenient than requesting specific permissions. What do you say and what do you recommend instead?
 9. SCENARIO: Your organization uses a traditional VPN. Employees authenticate once and are trusted for the rest of the day. A CISO asks you to evaluate this against Zero Trust principles. What do you find and what do you recommend?
 10. SCENARIO: You discover that your company's S3 buckets are accessible by an IAM role attached to a public-facing EC2 instance. Walk through the risk and your recommended fix.
+
+
+## Interview Prep — Topic 16 — 
+
+Recall questions:
+
+What is the difference between authentication and authorization? What HTTP status code represents each failure?
+What is credential stuffing and why does password reuse make it effective?
+What are the three MFA factor categories? Give one example of each.
+What is an MFA fatigue attack and what is the technical control that prevents it?
+What are FAR and FRR in biometrics? Why is there a tradeoff between them?
+What are the three parts of a JWT? What does each contain?
+Why is Base64 encoding not the same as encryption? What is the security implication for JWT payloads?
+What is the difference between an AWS IAM access key and AWS STS temporary credentials? Which is preferred and why?
+
+Scenario questions:
+9. SCENARIO: A developer stores their AWS access key in a GitHub repository. The commit is public. Walk through your immediate response steps.
+10. SCENARIO: Your SIEM shows 200 failed login attempts against a single account in 60 seconds followed by one successful login. Then the same successful login IP immediately attempts to access admin API endpoints and receives 403 responses. What do you suspect and what do you do?
+11. SCENARIO: A security review reveals the application stores JWT tokens in localStorage. What is the risk and what do you recommend instead?
