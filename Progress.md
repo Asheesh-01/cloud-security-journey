@@ -86,42 +86,42 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 **Estimated Time: 5-7 days at 1-2 hours daily**
 
 ## 1. Introduction to Cloud Security
-- [✅] What is Cloud Security
-- [✅] Why Cloud Security is Important
-- [✅] Where Cloud Security is Used
-- [✅] Shared Responsibility Model
+- [x] What is Cloud Security
+- [x] Why Cloud Security is Important
+- [x] Where Cloud Security is Used
+- [x] Shared Responsibility Model
 
 ## 2. Understanding the Cloud Ecosystem
-- [✅] What is AWS
-- [✅] What is Azure
-- [✅] What is GCP
-- [✅] Cloud vs On-Premise
+- [x] What is AWS
+- [x] What is Azure
+- [x] What is GCP
+- [x] Cloud vs On-Premise
 
 ## 3. Career & Roadmap Clarity
-- [✅] Cloud Security Roles Overview
-- [✅] Skills Required for Cloud Security Engineer
-- [✅] Understanding This Roadmap Structure
-- [✅] Setting 12–18 Month Goal
+- [x] Cloud Security Roles Overview
+- [x] Skills Required for Cloud Security Engineer
+- [x] Understanding This Roadmap Structure
+- [x] Setting 12–18 Month Goal
 
 ## 4. Environment Setup
-- [✅] Ubuntu Setup & Updates
-- [✅] Install Git
-- [✅] Setup GitHub Repository
-- [✅] Install VS Code
-- [✅] Create Project Folder Structure
+- [x] Ubuntu Setup & Updates
+- [x] Install Git
+- [x] Setup GitHub Repository
+- [x] Install VS Code
+- [x] Create Project Folder Structure
 
 ## 5. Learning Strategy & Discipline
-- [✅] Practical-First Approach
-- [✅] Documentation Habit
-- [✅] Commit Daily to GitHub
-- [✅] Understand 80% Practical / 20% Theory Model
+- [x] Practical-First Approach
+- [x] Documentation Habit
+- [x] Commit Daily to GitHub
+- [x] Understand 80% Practical / 20% Theory Model
 
 ## 6. Public Learning Start
-- [✅] Publish First LinkedIn Post
-- [✅] Create Introduction README
-- [✅] Define Personal Learning Rules
+- [x] Publish First LinkedIn Post
+- [x] Create Introduction README
+- [x] Define Personal Learning Rules
 
-**Volume 0 Status: ✅ COMPLETE**
+**Volume 0 Status: x COMPLETE**
 **Missing: AWS Free Tier account — create at aws.amazon.com/free and set billing alert at $5 immediately**
 
 ---
@@ -130,131 +130,131 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 **Estimated Time: 25-30 days at 1-2 hours daily**
 
 ## 1. What is a Computer
-- [✅] Data
-- [✅] Information
-- [✅] Hardware vs Software
-- [✅] Input Devices
-- [✅] Output Devices
-- [✅] Storage Devices
-- [✅] CPU, RAM, Disk, GPU
-- [✅] Motherboard
-- [✅] BIOS / UEFI
+- [x] Data
+- [x] Information
+- [x] Hardware vs Software
+- [x] Input Devices
+- [x] Output Devices
+- [x] Storage Devices
+- [x] CPU, RAM, Disk, GPU
+- [x] Motherboard
+- [x] BIOS / UEFI
 
 ## 2. How Computers Process Data
-- [✅] Binary Numbers *(Tools: Python / terminal)*
-- [✅] Bits & Bytes
-- [✅] Number Systems
-- [✅] Character Encoding
-- [✅] Instruction Cycle
-- [✅] Registers
-- [✅] Cache Memory
+- [x] Binary Numbers *(Tools: Python / terminal)*
+- [x] Bits & Bytes
+- [x] Number Systems
+- [x] Character Encoding
+- [x] Instruction Cycle
+- [x] Registers
+- [x] Cache Memory
 
 ## 3. What is an Operating System
-- [✅] Purpose of OS *(Tools: htop)*
-- [✅] Kernel *(Tools: uname -r, dmesg)*
-- [✅] User Space vs Kernel Space *(Tools: strace)*
-- [✅] Processes *(Tools: ps, pstree, htop)*
-- [✅] Memory Management *(Tools: free, /proc/PID/maps, vmstat)*
-- [✅] File Systems *(Tools: df, lsblk, stat, tune2fs)*
-- [✅] Device Drivers *(Tools: lsmod, dmesg, uname -r)*
+- [x] Purpose of OS *(Tools: htop)*
+- [x] Kernel *(Tools: uname -r, dmesg)*
+- [x] User Space vs Kernel Space *(Tools: strace)*
+- [x] Processes *(Tools: ps, pstree, htop)*
+- [x] Memory Management *(Tools: free, /proc/PID/maps, vmstat)*
+- [x] File Systems *(Tools: df, lsblk, stat, tune2fs)*
+- [x] Device Drivers *(Tools: lsmod, dmesg, uname -r)*
 
 ## 4. Types of Operating Systems
-- [✅] Desktop OS
-- [✅] Server OS
-- [✅] Mobile OS
-- [✅] Embedded OS
-- [✅] Real-Time OS
+- [x] Desktop OS
+- [x] Server OS
+- [x] Mobile OS
+- [x] Embedded OS
+- [x] Real-Time OS
 
 ## 5. Windows OS Basics
-- [✅] Windows Architecture
-- [✅] NTFS File System
-- [✅] Folder Structure — C:\Windows, C:\Users, C:\Program Files
-- [✅] Services — what they are and how to view them
-- [✅] Registry — what it stores and why attackers target it
-- [✅] Users & Groups
-- [✅] Event Viewer — where Windows logs are stored
+- [x] Windows Architecture
+- [x] NTFS File System
+- [x] Folder Structure — C:\Windows, C:\Users, C:\Program Files
+- [x] Services — what they are and how to view them
+- [x] Registry — what it stores and why attackers target it
+- [x] Users & Groups
+- [x] Event Viewer — where Windows logs are stored
 
 *(Tools: Task Manager, Event Viewer, PowerShell, cmd)*
 
 ## 6. Linux OS Basics
-- [✅] Linux Distributions — Ubuntu, Kali, CentOS, Arch
-- [✅] Kernel — how to check version
-- [✅] Shell — bash, zsh
-- [✅] Package Managers — apt, dnf, pacman
-- [✅] Directory Structure — /, /home, /etc, /var, /bin
-- [✅] File Permissions — read, write, execute
+- [x] Linux Distributions — Ubuntu, Kali, CentOS, Arch
+- [x] Kernel — how to check version
+- [x] Shell — bash, zsh
+- [x] Package Managers — apt, dnf, pacman
+- [x] Directory Structure — /, /home, /etc, /var, /bin
+- [x] File Permissions — read, write, execute
 
 *(Tools: bash, apt, uname, ls, pwd)*
 
 ## 7. What is Software
-- [✅] Application Software vs System Software
-- [✅] Open Source vs Closed Source — security implications of each
-- [✅] How software is installed on Linux vs Windows
+- [x] Application Software vs System Software
+- [x] Open Source vs Closed Source — security implications of each
+- [x] How software is installed on Linux vs Windows
 
 ## 8. What is Programming
-- [✅] What is Code *(Tools: Python)*
-- [✅] Compiled vs Interpreted
-- [✅] High-Level vs Low-Level
-- [✅] Why Python is used in security — automation, scripting, tool building
+- [x] What is Code *(Tools: Python)*
+- [x] Compiled vs Interpreted
+- [x] High-Level vs Low-Level
+- [x] Why Python is used in security — automation, scripting, tool building
 
 ## 9. What is the Internet
-- [✅] Network of Networks *(Tools: ping)*
-- [✅] ISP — Internet Service Provider
-- [✅] Client-Server Model — who requests, who responds
+- [x] Network of Networks *(Tools: ping)*
+- [x] ISP — Internet Service Provider
+- [x] Client-Server Model — who requests, who responds
 
 ## 10. How the Internet Works
-- [✅] IP Address *(Tools: ping, traceroute)*
-- [✅] Domain Name *(Tools: nslookup)*
-- [✅] DNS — how domain names become IP addresses *(Tools: nslookup, dig)*
-- [✅] Routing — how packets travel *(Tools: traceroute)*
-- [✅] Packets — how data is broken up and sent
-- [✅] Ports — what they are and why they matter for security
+- [x] IP Address *(Tools: ping, traceroute)*
+- [x] Domain Name *(Tools: nslookup)*
+- [x] DNS — how domain names become IP addresses *(Tools: nslookup, dig)*
+- [x] Routing — how packets travel *(Tools: traceroute)*
+- [x] Packets — how data is broken up and sent
+- [x] Ports — what they are and why they matter for security
 
 ## 11. What is a Network
-- [✅] LAN — Local Area Network *(Tools: ifconfig, ip addr)*
-- [✅] WAN — Wide Area Network
-- [✅] MAN — Metropolitan Area Network
-- [✅] PAN — Personal Area Network
+- [x] LAN — Local Area Network *(Tools: ifconfig, ip addr)*
+- [x] WAN — Wide Area Network
+- [x] MAN — Metropolitan Area Network
+- [x] PAN — Personal Area Network
 
 ## 12. What is Cybersecurity
-- [✅] Why Cybersecurity Exists
-- [✅] Digital Assets
-- [✅] Threat — definition and real example
-- [✅] Vulnerability — definition and real example
-- [✅] Risk — definition and real example
-- [✅] Difference between threat, vulnerability, and risk — top interview question
+- [x] Why Cybersecurity Exists
+- [x] Digital Assets
+- [x] Threat — definition and real example
+- [x] Vulnerability — definition and real example
+- [x] Risk — definition and real example
+- [x] Difference between threat, vulnerability, and risk — top interview question
 
 ## 13. Types of Cyber Threats
-- [✅] Malware — umbrella term *(Tools: ClamAV)*
-- [✅] Virus — how it spreads
-- [✅] Worm — self-replicating, no user action needed
-- [✅] Trojan — disguised as legitimate software
-- [✅] Ransomware — encrypts files, demands payment — Colonial Pipeline 2021
-- [✅] Spyware — silently collects data
-- [✅] Adware
-- [✅] Botnet — network of infected machines — Mirai 2016
+- [x] Malware — umbrella term *(Tools: ClamAV)*
+- [x] Virus — how it spreads
+- [x] Worm — self-replicating, no user action needed
+- [x] Trojan — disguised as legitimate software
+- [x] Ransomware — encrypts files, demands payment — Colonial Pipeline 2021
+- [x] Spyware — silently collects data
+- [x] Adware
+- [x] Botnet — network of infected machines — Mirai 2016
 
 ## 14. Hacker Types
-- [✅] Black Hat — malicious, illegal
-- [✅] White Hat — ethical, hired to test
-- [✅] Gray Hat — in between
-- [✅] Script Kiddie — uses tools without understanding them
-- [✅] Hacktivist — hacks for a political cause
-- [✅] Nation State — government-sponsored attacker, most sophisticated
+- [x] Black Hat — malicious, illegal
+- [x] White Hat — ethical, hired to test
+- [x] Gray Hat — in between
+- [x] Script Kiddie — uses tools without understanding them
+- [x] Hacktivist — hacks for a political cause
+- [x] Nation State — government-sponsored attacker, most sophisticated
 
 ## 15. Basic Security Principles
-- [✅] CIA Triad — Confidentiality, Integrity, Availability — memorize with real attack example for each
-- [✅] Defense in Depth — multiple security layers, assume breach at every level
-- [✅] Least Privilege — only the access needed, nothing more
-- [✅] Zero Trust — never trust, always verify
+- [x] CIA Triad — Confidentiality, Integrity, Availability — memorize with real attack example for each
+- [x] Defense in Depth — multiple security layers, assume breach at every level
+- [x] Least Privilege — only the access needed, nothing more
+- [x] Zero Trust — never trust, always verify
 
 ## 16. Authentication & Authorization
-- [✅] Authentication — proving who you are
-- [✅] Authorization — what you are allowed to do after proving identity
-- [✅] Username / Password — why this alone is insufficient
-- [✅] MFA — something you know plus something you have *(Tools: Google Authenticator)*
-- [✅] Biometrics
-- [✅] Tokens
+- [x] Authentication — proving who you are
+- [x] Authorization — what you are allowed to do after proving identity
+- [x] Username / Password — why this alone is insufficient
+- [x] MFA — something you know plus something you have *(Tools: Google Authenticator)*
+- [x] Biometrics
+- [x] Tokens
 
 ## 17. Data Protection Basics
 - [ ] Encryption — scrambles data, reversible with the right key *(Tools: openssl)*
@@ -881,7 +881,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [ ] Apply for one internship — even if not feeling ready — rejection feedback is more valuable than waiting
 - [ ] Cyber Dragon: security foundations module draft created
 
-**✅ START APPLYING FOR INTERNSHIPS after Volume 5 complete**
+**x START APPLYING FOR INTERNSHIPS after Volume 5 complete**
 
 ---
 
@@ -1014,7 +1014,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [ ] Actively applying for SOC Analyst fresher roles
 - [ ] Cyber Dragon: SOC analyst roadmap module draft created
 
-**✅ ACTIVELY APPLYING — Volume 6 complete = hireable for SOC Analyst roles**
+**x ACTIVELY APPLYING — Volume 6 complete = hireable for SOC Analyst roles**
 
 ---
 
@@ -1170,7 +1170,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [ ] Aggressively applying for Cloud Security Engineer fresher roles
 - [ ] Cyber Dragon: AWS security module draft created
 
-**✅ AGGRESSIVELY APPLYING — Volume 7 complete = Cloud Security Engineer roles within reach**
+**x AGGRESSIVELY APPLYING — Volume 7 complete = Cloud Security Engineer roles within reach**
 
 ---
 
@@ -1360,8 +1360,8 @@ Target Roles: Cloud Penetration Tester, Red Team Cloud, Security Consultant
 
 | Milestone | Status |
 |-----------|--------|
-| Volume 0 complete | ✅ |
-| AWS Free Tier created with billing alert at $5 | ✅ |
+| Volume 0 complete | x |
+| AWS Free Tier created with billing alert at $5 | x |
 | Volume 1 complete | 🔄 In progress  |
 | Volume 1 Cyber Dragon module created | ⏳ |
 | Volume 2 complete | ⏳ |
