@@ -257,7 +257,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Tokens
 
 ## 17. Data Protection Basics
-- [ ] Encryption — scrambles data, reversible with the right key *(Tools: openssl)*
+- [x] Encryption — scrambles data, reversible with the right key *(Tools: openssl)*
 - [ ] Hashing — one-way, cannot be reversed, used for passwords *(Tools: openssl)*
 - [ ] Encoding — not security, just format change — Base64 example
 
