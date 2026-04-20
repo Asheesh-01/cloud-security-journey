@@ -259,7 +259,8 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 ## 17. Data Protection Basics
 - [x] Encryption — scrambles data, reversible with the right key *(Tools: openssl)*
 - [x] Hashing — one-way, cannot be reversed, used for passwords *(Tools: openssl)*
-- [ ] Encoding — not security, just format change — Base64 example
+- [x] Encoding — not security, just format change — Base64 example
+- [x] Why you hash passwords instead of encrypting them
 
 ## 18. Security Roles
 - [ ] SOC Analyst — monitors alerts, triages incidents

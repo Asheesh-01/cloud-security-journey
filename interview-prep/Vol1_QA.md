@@ -486,3 +486,21 @@ Scenario questions:
 9. SCENARIO: A developer stores their AWS access key in a GitHub repository. The commit is public. Walk through your immediate response steps.
 10. SCENARIO: Your SIEM shows 200 failed login attempts against a single account in 60 seconds followed by one successful login. Then the same successful login IP immediately attempts to access admin API endpoints and receives 403 responses. What do you suspect and what do you do?
 11. SCENARIO: A security review reveals the application stores JWT tokens in localStorage. What is the risk and what do you recommend instead?
+
+
+## Interview Prep — Topic 17 —
+Recall questions:
+
+What is the difference between symmetric and asymmetric encryption? Give one real-world use case for each.
+What is AES-256? What does 256 refer to and why does key length matter?
+What is the difference between hashing and encryption? How does this difference determine which to use for password storage?
+What is a salt in password hashing? What attack does it defeat and how?
+What is the work factor in bcrypt? What happens if it is too low? What happens if it is too high?
+What is Base64? Why does Base64 encoding provide zero security?
+What is the difference between encryption at rest and encryption in transit? Give one tool for each.
+Why is the Adobe 2013 breach a failure of both password hashing AND mode of operation selection?
+
+Scenario questions:
+9. SCENARIO: A developer suggests storing passwords encrypted with AES-256 and storing the key in an environment variable on the same server. Evaluate this approach and recommend the correct alternative.
+10. SCENARIO: You are auditing a web application and find that when you click "forgot password," the site emails you your existing password. What does this tell you about how passwords are stored? What is the risk? What do you recommend?
+11. SCENARIO: You are reviewing a breach where an attacker stole a database of 10 million password hashes. Half are bcrypt with work factor 12. Half are unsalted MD5. Explain the difference in how quickly the attacker can crack each half and why.
