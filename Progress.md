@@ -263,11 +263,11 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Why you hash passwords instead of encrypting them
 
 ## 18. Security Roles
-- [ ] SOC Analyst — monitors alerts, triages incidents
-- [ ] Security Engineer — builds and maintains security tools
-- [ ] Penetration Tester — finds vulnerabilities before attackers do
-- [ ] Incident Responder — handles active attacks
-- [ ] Cloud Security Engineer — secures cloud infrastructure
+- [x] SOC Analyst — monitors alerts, triages incidents
+- [x] Security Engineer — builds and maintains security tools
+- [x] Penetration Tester — finds vulnerabilities before attackers do
+- [x] Incident Responder — handles active attacks
+- [x] Cloud Security Engineer — secures cloud infrastructure
 
 *(Tools: None — read 3 real job descriptions for each role on LinkedIn)*
 
