@@ -272,12 +272,12 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 *(Tools: None — read 3 real job descriptions for each role on LinkedIn)*
 
 ## 19. Ethical & Legal Concepts
-- [ ] Cyber Laws in India — IT Act 2000
-- [ ] India DPDP Act — Digital Personal Data Protection Act
-- [ ] Privacy
-- [ ] Compliance — what it means in the industry
-- [ ] Ethics in security — never test what you do not own
-- [ ] Responsible disclosure — reporting vulnerabilities properly
+- [x] Cyber Laws in India — IT Act 2000
+- [x] India DPDP Act — Digital Personal Data Protection Act
+- [x] Privacy
+- [x] Compliance — what it means in the industry
+- [x] Ethics in security — never test what you do not own
+- [x] Responsible disclosure — reporting vulnerabilities properly
 
 ## 20. Security Learning Platforms
 - [ ] TryHackMe — max 4 rooms — supplement only, not replacement *(Tools: OpenVPN)*
