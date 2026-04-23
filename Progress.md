@@ -280,9 +280,9 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Responsible disclosure — reporting vulnerabilities properly
 
 ## 20. Security Learning Platforms
-- [ ] TryHackMe — max 4 rooms — supplement only, not replacement *(Tools: OpenVPN)*
-- [ ] HackTheBox — intermediate and advanced — from Volume 6 onward
-- [ ] OverTheWire — Bandit levels 0–15 only
+- [x] TryHackMe — max 4 rooms — supplement only, not replacement *(Tools: OpenVPN)*
+- [x] HackTheBox — intermediate and advanced — from Volume 6 onward
+- [x] OverTheWire — Bandit levels 0–15 only
 
 **Volume 1 Micro-Challenge (complete after Topic 4):**
 - [ ] Find your home router model number
