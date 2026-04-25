@@ -504,3 +504,20 @@ Scenario questions:
 9. SCENARIO: A developer suggests storing passwords encrypted with AES-256 and storing the key in an environment variable on the same server. Evaluate this approach and recommend the correct alternative.
 10. SCENARIO: You are auditing a web application and find that when you click "forgot password," the site emails you your existing password. What does this tell you about how passwords are stored? What is the risk? What do you recommend?
 11. SCENARIO: You are reviewing a breach where an attacker stole a database of 10 million password hashes. Half are bcrypt with work factor 12. Half are unsalted MD5. Explain the difference in how quickly the attacker can crack each half and why.
+
+## Topic 18 questions:
+
+What is the difference between a SOC Analyst and a Security Engineer?
+Why is penetration testing not an entry-level role?
+What does a Cloud Security Engineer do daily that a SOC Analyst does not?
+
+## Topic 19 questions:
+
+4. What does IT Act Section 66 cover and what is the penalty?
+5. What is responsible disclosure? What is the standard timeline?
+6. SCENARIO: You find a vulnerability in a company's website while browsing. What do you do?
+
+## Topic 20 questions:
+
+7. Why is TryHackMe limited to 4 rooms in your roadmap?
+8. What makes OverTheWire Bandit more valuable than guided tutorials for building genuine skill?

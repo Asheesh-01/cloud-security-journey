@@ -312,7 +312,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 **Estimated Time: 22-28 days at 1-2 hours daily**
 
 ## 1. OS Architecture
-- [ ] Kernel in depth — monolithic vs microkernel *(Tools: dmesg)*
+- [x] Kernel in depth — monolithic vs microkernel *(Tools: dmesg)*
 - [ ] User Space vs Kernel Space — Ring 0 vs Ring 3 *(Tools: dmesg)*
 - [ ] System Calls — how user programs talk to the kernel *(Tools: strace)*
 - [ ] Interrupts — hardware and software interrupts
