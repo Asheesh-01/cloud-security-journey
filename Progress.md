@@ -315,7 +315,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Kernel in depth — monolithic vs microkernel *(Tools: dmesg)*
 - [x] User Space vs Kernel Space — Ring 0 vs Ring 3 *(Tools: dmesg)*
 - [x] System Calls — how user programs talk to the kernel *(Tools: strace)*
-- [ ] Interrupts — hardware and software interrupts
+- [x] Interrupts — hardware and software interrupts
 - [ ] Boot Process — BIOS to UEFI to Bootloader to Kernel to Init
 - [ ] Firmware (BIOS / UEFI) — differences and security implications
 
