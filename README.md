@@ -53,7 +53,6 @@ cloud-security-journey/
 │   ├── labs/           
 │   └── artifacts/      
 ├── Volume-02_OS-Deep-Dive/
-│   ├── notes/
 │   ├── labs/
 │   ├── artifacts/
 │   ├── linux/

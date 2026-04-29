@@ -316,7 +316,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] User Space vs Kernel Space — Ring 0 vs Ring 3 *(Tools: dmesg)*
 - [x] System Calls — how user programs talk to the kernel *(Tools: strace)*
 - [x] Interrupts — hardware and software interrupts
-- [ ] Boot Process — BIOS to UEFI to Bootloader to Kernel to Init
+- [x] Boot Process — BIOS to UEFI to Bootloader to Kernel to Init
 - [ ] Firmware (BIOS / UEFI) — differences and security implications
 
 ## 2. Windows File System
@@ -365,6 +365,23 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [ ] Windows Firewall — how it differs from Defender
 - [ ] BitLocker — full disk encryption, protects data at rest
 - [ ] SmartScreen — application reputation filtering
+
+## 9.5 Linux Command Line Mastery
+ 
+- [ ] Navigation Commands — pwd, cd, ls, ls -la, tree *(Tools: bash)*
+- [ ] File Operations — cp, mv, rm, mkdir, rmdir, touch *(Tools: bash)*
+- [ ] Viewing File Content — cat, less, more, head, tail, tail -f *(Tools: bash)*
+- [ ] Finding Things — find, locate, which, whereis *(Tools: find)*
+- [ ] Text Searching — grep, grep -r, grep -i, grep -n *(Tools: grep)*
+- [ ] Text Processing — cut, awk, sed, sort, uniq, wc *(Tools: awk, sed)*
+- [ ] Pipe Chaining — combining commands with | to build powerful one-liners *(Tools: bash)*
+- [ ] Redirection — >, >>, <, 2>, 2>&1 — where output goes *(Tools: bash)*
+- [ ] Permissions Quick Check — whoami, id, sudo, su *(Tools: bash)*
+- [ ] Network Quick Commands — ping, curl, wget, ss, netstat *(Tools: bash)*
+- [ ] Archiving and Compression — tar, gzip, zip, unzip *(Tools: tar)*
+- [ ] System Info Commands — uname -a, uptime, hostname, date, env *(Tools: bash)*
+- [ ] Disk and Memory Quick Check — df -h, du -sh, free -h *(Tools: bash)*
+- [ ] Security-Focused One-Liners — grep failed /var/log/auth.log, find / -perm -4000, ss -tulnp *(Tools: grep, find, ss)*
 
 ## 10. Linux File System Structure
 - [ ] Root / *(Tools: ls, tree)*

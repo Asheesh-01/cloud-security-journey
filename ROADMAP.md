@@ -777,6 +777,30 @@ Based on 1 hour daily during exam season and 2 hours on normal days.
 
 </details>
 
+
+<details>
+<summary>Topic 9.5 — Linux Command Line Mastery</summary>
+<br>
+
+Navigation Commands — pwd, cd, ls, ls -la, tree
+File Operations — cp, mv, rm, mkdir, rmdir, touch
+Viewing File Content — cat, less, more, head, tail, tail -f
+Finding Things — find, locate, which, whereis
+Text Searching — grep, grep -r, grep -i, grep -n
+Text Processing — cut, awk, sed, sort, uniq, wc
+Pipe Chaining — combining commands with | to build powerful one-liners
+Redirection — >, >>, <, 2>, 2>&1 — where output goes
+Permissions Quick Check — whoami, id, sudo, su
+Network Quick Commands — ping, curl, wget, ss, netstat
+Archiving and Compression — tar, gzip, zip, unzip
+System Info Commands — uname -a, uptime, hostname, date, env
+Disk and Memory Quick Check — df -h, du -sh, free -h
+Security-Focused One-Liners — grep failed /var/log/auth.log, find / -perm -4000, ss -tulnp
+
+Tools: bash, grep, find, awk, sed, ss
+
+
+</details>
 <details>
 <summary>Topic 10 — Linux File System Structure</summary>
 
