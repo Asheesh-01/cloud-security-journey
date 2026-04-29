@@ -317,7 +317,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] System Calls — how user programs talk to the kernel *(Tools: strace)*
 - [x] Interrupts — hardware and software interrupts
 - [x] Boot Process — BIOS to UEFI to Bootloader to Kernel to Init
-- [ ] Firmware (BIOS / UEFI) — differences and security implications
+- [x] Firmware (BIOS / UEFI) — differences and security implications
 
 ## 2. Windows File System
 - [ ] NTFS Structure *(Tools: fsutil)*
