@@ -320,7 +320,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Firmware (BIOS / UEFI) — differences and security implications
 
 ## 2. Windows File System
-- [ ] NTFS Structure *(Tools: fsutil)*
+- [x] NTFS Structure *(Tools: fsutil)*
 - [ ] File Attributes — hidden, read-only, system *(Tools: attrib)*
 - [ ] Alternate Data Streams ADS — how malware hides data inside legitimate files *(Tools: fsutil)*
 - [ ] Permissions ACL — who can read, write, execute a file *(Tools: icacls)*
