@@ -16,7 +16,7 @@ Daily hands-on cloud security learning. Every day = terminal open, commands run,
 | **Started** | Day 01 — streak active |
 | **Method** | 80% Practical / 20% Theory |
 | **Blog** | [asheeshsharma.hashnode.dev](https://asheeshsharma.hashnode.dev) |
-| **LinkedIn** | [linkedin.com/in/asheesh-sharma](https://www.linkedin.com/in/asheesh-sharma-8204a1337/) |
+| **LinkedIn** | [linkedin.com/in/asheesh-sharma](https://www.linkedin.com/in/asheesh-sharmaa/) |
 
 ---
 
@@ -113,7 +113,7 @@ Every single day:
 ## 🔗 Links
 
 - 📝 Blog: [asheeshsharma.hashnode.dev](https://asheeshsharma.hashnode.dev)
-- 💼 LinkedIn: [linkedin.com/in/asheesh-sharma](https://www.linkedin.com/in/asheesh-sharma-8204a1337/)
+- 💼 LinkedIn: [linkedin.com/in/asheesh-sharma](https://www.linkedin.com/in/asheesh-sharmaa/)
 - 🐙 GitHub: [github.com/Asheesh-01](https://github.com/Asheesh-01)
 
 ---

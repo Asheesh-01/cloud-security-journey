@@ -322,8 +322,8 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 ## 2. Windows File System
 - [x] NTFS Structure *(Tools: fsutil)*
 - [x] File Attributes — hidden, read-only, system *(Tools: attrib)*
-- [ ] Alternate Data Streams ADS — how malware hides data inside legitimate files *(Tools: fsutil)*
-- [ ] Permissions ACL — who can read, write, execute a file *(Tools: icacls)*
+- [x] Alternate Data Streams ADS — how malware hides data inside legitimate files *(Tools: fsutil)*
+- [x] Permissions ACL — who can read, write, execute a file *(Tools: icacls)*
 
 ## 3. Windows Users & Groups
 - [ ] Local Users *(Tools: lusrmgr.msc, net user)*
