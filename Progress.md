@@ -326,7 +326,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Permissions ACL — who can read, write, execute a file *(Tools: icacls)*
 
 ## 3. Windows Users & Groups
-- [ ] Local Users *(Tools: lusrmgr.msc, net user)*
+- [x] Local Users *(Tools: lusrmgr.msc, net user)*
 - [ ] Domain Users — concept only
 - [ ] Built-in Accounts — Administrator, Guest, SYSTEM
 - [ ] User Profiles — where stored on disk
