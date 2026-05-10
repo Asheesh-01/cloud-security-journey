@@ -327,9 +327,9 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 
 ## 3. Windows Users & Groups
 - [x] Local Users *(Tools: lusrmgr.msc, net user)*
-- [ ] Domain Users — concept only
-- [ ] Built-in Accounts — Administrator, Guest, SYSTEM
-- [ ] User Profiles — where stored on disk
+- [x] Domain Users — concept only
+- [x] Built-in Accounts — Administrator, Guest, SYSTEM
+- [x] User Profiles — where stored on disk
 
 ## 4. Windows Processes & Services
 - [ ] Processes *(Tools: Task Manager, Process Explorer)*

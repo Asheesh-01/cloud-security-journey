@@ -24,3 +24,13 @@ What is the difference between DACL and SACL?
 Deny beats Allow in NTFS permission evaluation — explain why and give a real scenario where this matters.
 What is a writable service binary path and why is it a privilege escalation risk?
 SCENARIO: You run icacls C:\Program Files\VulnerableApp\ and see BUILTIN\Users:(OI)(CI)(W). What does this mean and what attack does it enable?
+
+## Topic 3 — 
+    1. What is the SAM database? Where is it stored and why cannot a normal user read it? 
+    2. What is the difference between SYSTEM and Administrator? Which is more powerful and why? 
+    3. Why is the built-in Administrator account dangerous even when renamed? 
+    4. What is LAPS and what specific attack does it prevent? 
+    5. What forensic information does a LNK file in the Recent folder contain? 
+    6. Why is AppData a preferred malware installation location? 
+    7. SCENARIO: You find an executable file in C:\Users\john\AppData\Local\Temp\ that was created 3 hours ago. John's account is a standard user. Walk through your investigation steps. 
+    8. SCENARIO: reg query HKLM\...\ProfileList shows a SID with no corresponding folder in C:\Users. What does this indicate and what do you investigate next?
