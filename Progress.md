@@ -335,7 +335,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Processes *(Tools: Task Manager, Process Explorer)*
 - [x] Threads — the difference from processes
 - [x] Services — background processes that run without logged-in user *(Tools: services.msc)*
-- [ ] Startup Programs — what launches automatically at boot and how attackers abuse this
+- [x] Startup Programs — what launches automatically at boot and how attackers abuse this
 
 ## 5. Windows Registry
 - [ ] Registry Purpose — what it stores and why it exists *(Tools: regedit)*

@@ -34,3 +34,14 @@ SCENARIO: You run icacls C:\Program Files\VulnerableApp\ and see BUILTIN\Users:(
     6. Why is AppData a preferred malware installation location? 
     7. SCENARIO: You find an executable file in C:\Users\john\AppData\Local\Temp\ that was created 3 hours ago. John's account is a standard user. Walk through your investigation steps. 
     8. SCENARIO: reg query HKLM\...\ProfileList shows a SID with no corresponding folder in C:\Users. What does this indicate and what do you investigate next?
+
+## Topic 4 
+
+What is the difference between a process and a thread? What does each have independently?
+What is PPID and why do unexpected parent-child relationships indicate malware?
+What is process hollowing? How does it evade process-list-based detection?
+What is an unquoted service path? Walk through the exploitation step by step.
+What is the difference between HKLM Run and HKCU Run from a privilege and persistence perspective?
+What does the Winlogon Userinit value normally contain? What does it mean if something extra is appended?
+What is IFEO and how is it abused with accessibility tools to get a pre-authentication shell?
+SCENARIO: You run Autoruns on a suspected machine and see an unsigned entry in the HKCU Run key pointing to C:\Users\john\AppData\Local\Temp\update.exe. Walk through your investigation.
