@@ -340,8 +340,8 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 ## 5. Windows Registry
 - [x] Registry Purpose — what it stores and why it exists *(Tools: regedit)*
 - [x] Hives — HKLM, HKCU, HKCR, HKU, HKCC and what each stores
-- [ ] Keys and Values — how data is stored
-- [ ] Common Persistence Locations that attackers write to — Run keys, Services
+- [x] Keys and Values — how data is stored
+- [x] Common Persistence Locations that attackers write to — Run keys, Services
 
 ## 6. Windows Event Logging
 - [ ] Application Logs *(Tools: Event Viewer)*

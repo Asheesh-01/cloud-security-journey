@@ -45,3 +45,16 @@ What is the difference between HKLM Run and HKCU Run from a privilege and persis
 What does the Winlogon Userinit value normally contain? What does it mean if something extra is appended?
 What is IFEO and how is it abused with accessibility tools to get a pre-authentication shell?
 SCENARIO: You run Autoruns on a suspected machine and see an unsigned entry in the HKCU Run key pointing to C:\Users\john\AppData\Local\Temp\update.exe. Walk through your investigation.
+
+    
+
+##   Topic 5 — 
+
+What are the five main Registry hives? What does each store and what are the access requirements for each?
+What is the difference between HKLM Run and HKCU Run from both a privilege and forensic perspective?
+What is the Winlogon Userinit value and what exactly should it contain? What does an appended value mean?
+What is IFEO and how is it abused to get a SYSTEM shell at the Windows login screen?
+What are AppInit DLLs? Why are they disabled by default on modern Windows?
+What is the Boot Execute registry value and why is persistence there particularly dangerous?
+What are LSA Security Packages? What does adding a DLL there achieve for an attacker?
+SCENARIO: You run your persistence check script and find that AppInit_DLLs contains C:\Users\Public\helper.dll and LoadAppInit_DLLs is set to 1. Walk through your response. 
