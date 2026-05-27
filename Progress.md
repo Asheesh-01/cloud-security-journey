@@ -344,7 +344,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Common Persistence Locations that attackers write to — Run keys, Services
 
 ## 6. Windows Event Logging
-- [ ] Application Logs *(Tools: Event Viewer)*
+- [x] Application Logs *(Tools: Event Viewer)*
 - [ ] Security Logs — Event ID 4624 successful login, 4625 failed login, 4648 explicit credentials
 - [ ] System Logs
 - [ ] Why these three Event IDs matter for security analysts every single day
