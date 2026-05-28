@@ -345,7 +345,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 
 ## 6. Windows Event Logging
 - [x] Application Logs *(Tools: Event Viewer)*
-- [ ] Security Logs — Event ID 4624 successful login, 4625 failed login, 4648 explicit credentials
+- [x] Security Logs — Event ID 4624 successful login, 4625 failed login, 4648 explicit credentials
 - [ ] System Logs
 - [ ] Why these three Event IDs matter for security analysts every single day
 
