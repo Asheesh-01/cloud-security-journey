@@ -58,3 +58,15 @@ What are AppInit DLLs? Why are they disabled by default on modern Windows?
 What is the Boot Execute registry value and why is persistence there particularly dangerous?
 What are LSA Security Packages? What does adding a DLL there achieve for an attacker?
 SCENARIO: You run your persistence check script and find that AppInit_DLLs contains C:\Users\Public\helper.dll and LoadAppInit_DLLs is set to 1. Walk through your response. 
+
+
+## Topic 6 —
+
+What is the difference between the Application, Security, and System event log channels? Which is most important for security work and why?
+What does audit policy control? Name three subcategories that must be enabled for basic SOC visibility.
+What does Logon Type tell you in a 4624 event? Decode Types 2, 3, 5, 9, and 10.
+What is the difference between Status code 0xC000006A and 0xC0000064 in a 4625 event? Why does this distinction matter for attack stage assessment?
+What is a password spray attack and how does it differ from brute force? Which Event ID detects it and what pattern do you look for?
+What is Event ID 4648 and on which machine does it fire — the source or the destination?
+How do 4648 and 4624 work together to reconstruct lateral movement? Walk through the correlation.
+SCENARIO: You see 50 Event ID 4648 events in 10 minutes on a workstation. The Subject is a standard user account. The credentials used belong to the domain Administrator account. The Target Server changes with each event. Walk through your investigation and what this pattern indicates.

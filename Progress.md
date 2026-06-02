@@ -347,7 +347,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Application Logs *(Tools: Event Viewer)*
 - [x] Security Logs — Event ID 4624 successful login, 4625 failed login, 4648 explicit credentials
 - [x] System Logs
-- [ ] Why these three Event IDs matter for security analysts every single day
+- [x] Why these three Event IDs matter for security analysts every single day
 
 ## 7. Windows Permissions & Access Control
 - [ ] NTFS Permissions — Full Control, Modify, Read and Execute, Read, Write *(Tools: icacls)*
