@@ -350,10 +350,10 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Why these three Event IDs matter for security analysts every single day
 
 ## 7. Windows Permissions & Access Control
-- [ ] NTFS Permissions — Full Control, Modify, Read and Execute, Read, Write *(Tools: icacls)*
+- [x] NTFS Permissions — Full Control, Modify, Read and Execute, Read, Write *(Tools: icacls)*
 - [ ] Share Permissions — how network shares are controlled
-- [ ] UAC — what it does and why it exists
-- [ ] How attackers bypass UAC — concept only
+- [x] UAC — what it does and why it exists
+- [ ] How attackers bypass UAC — with practical 
 
 ## 8. Windows Networking Basics
 - [ ] IP Configuration *(Tools: ipconfig)*
