@@ -3,14 +3,14 @@
 ---
 
 ## 🔴 DAILY RULES (Read Every Day)
-- [ ] Terminal open before anything else
-- [ ] Minimum 1 hour during exams — 2 hours on normal days — non-negotiable
-- [ ] 1 GitHub commit — even if just a typo fix
-- [ ] LinkedIn post every day — first 3 months daily to build habit, then shift to 3-4 per week with higher quality
-- [ ] 1 Hashnode blog per volume completed — 800-1200 words with screenshots and lab output
-- [ ] 5 interview questions + 2 scenario-based questions written per topic in `interview-prep/` folder
-- [ ] 10 min English reading + 10 min rewriting — daily
-- [ ] After every volume completes: spend 2-3 days creating the corresponding Cyber Dragon module before starting the next volume
+- ✅ - Terminal open before anything else
+- ✅ - Minimum 1 hour during exams — 2 hours on normal days — non-negotiable
+- ✅ - 1 GitHub commit — even if just a typo fix
+- ✅ - LinkedIn post every day — first 3 months daily to build habit, then shift to 3-4 per week with higher quality
+- ✅ - 1 Hashnode blog per volume completed — 800-1200 words with screenshots and lab output
+- ✅ - 5 interview questions + 2 scenario-based questions written per topic in `interview-prep/` folder
+- ✅ - 10 min English reading + 10 min rewriting — daily
+<!-- - ✅ - After every volume completes: spend 2-3 days creating the corresponding Cyber Dragon module before starting the next volume -->
 
 ---
 
@@ -351,7 +351,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 
 ## 7. Windows Permissions & Access Control
 - [x] NTFS Permissions — Full Control, Modify, Read and Execute, Read, Write *(Tools: icacls)*
-- [ ] Share Permissions — how network shares are controlled
+- [x] Share Permissions — how network shares are controlled
 - [x] UAC — what it does and why it exists
 - [ ] How attackers bypass UAC — with practical 
 
