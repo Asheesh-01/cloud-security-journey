@@ -1,6 +1,6 @@
 # ☁️ Cloud Security Engineering — Master Roadmap 2026
 
-> Zero to Cloud Security Engineer · No Course · No Video · Only Work
+> Zero to Cloud Security Engineer 
 >
 > 11 Volumes · 80% Practical · Job-Focused · No Shortcuts
 
@@ -41,7 +41,6 @@ This roadmap builds all three simultaneously.
 | Pillar | What It Means | How |
 |--------|--------------|-----|
 | **Technical** | 80% hands-on. Every topic = commands run in terminal. | Notes + Labs + Screenshots every day |
-| **Public Proof** | Recruiters must find you before you apply. | GitHub daily · LinkedIn daily (first 3 months), then 3-4x/week · Hashnode per volume |
 | **Interview Ready** | 5 recall questions + 2 scenario questions per topic from Day 1. Never wait. | `interview-prep/` folder — written answers for every topic |
 
 ### Daily Non-Negotiable Rules
@@ -82,11 +81,6 @@ Every 3 months take one planned recovery week. No new learning. This protects th
 - Post on LinkedIn about your 3-month milestone
 - Recovery week is NOT a break from GitHub or LinkedIn — just a break from new content
 
-### LinkedIn Phase Strategy
-
-- **Months 1-3:** Post every day. Goal is habit formation. Quality is secondary.
-- **Months 4-6:** Post 4-5 times per week. Start improving quality — better structure, real examples.
-- **Month 7 onwards:** Post 3-4 times per week. Full quality focus. Each post must provide one specific insight.
 
 ### Mock Interview Plan
 
@@ -115,11 +109,6 @@ Writing answers is not the same as speaking under pressure. Both must be practic
 
 At ₹20+ LPA companies your README, LinkedIn post, and interview communication are all evaluated.
 Weak English = rejection even with strong technical skills.
-
-### Daily Practice — 20 Minutes
-
-- **Minutes 1–10:** Read one paragraph from any English tech blog slowly. AWS docs, Medium, or Grammarly blog. Understand every sentence.
-- **Minutes 11–20:** Rewrite that same paragraph in your own words without looking. Then compare. Spot the differences.
 
 ### LinkedIn Post Structure — Write After Every Topic
 
@@ -168,27 +157,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 
 ---
 
-## ⏱️ Volume Time Estimates
 
-Based on 1 hour daily during exam season and 2 hours on normal days.
-
-| Volume | Topics | Estimated Days | Estimated Weeks |
-|--------|--------|---------------|-----------------|
-| 00 | 5 topics | 5–7 days | 1 week |
-| 01 | 20 topics | 25–30 days | 4–5 weeks |
-| 02 | 18 topics | 22–28 days | 3–4 weeks |
-| 03 | 18 topics | 22–28 days | 3–4 weeks |
-| 04 | 18 topics + project | 25–35 days | 4–5 weeks |
-| 05 | 15 topics | 18–22 days | 3 weeks |
-| 06 | 13 topics | 18–24 days | 3–4 weeks |
-| 07 | 13 topics + 6 labs | 25–35 days | 4–5 weeks |
-| 08 | 11 topics + pipeline | 18–25 days | 3–4 weeks |
-| 09 | 8 projects | 40–60 days | 6–8 weeks |
-| 10 | Career prep | 15–20 days | 2–3 weeks |
-| 11 | Specialization | 30–45 days | 4–6 weeks |
-| **TOTAL** | **Full roadmap** | **250–350 days** | **36–50 weeks** |
-
----
 
 ## 📚 Volumes
 
@@ -744,7 +713,8 @@ Based on 1 hour daily during exam season and 2 hours on normal days.
 - NTFS permissions — Full Control, Modify, Read & Execute, Read, Write
 - Share permissions — how network shares are controlled
 - User Account Control (UAC) — what it does and why it exists
-- How attackers bypass UAC (concept)
+- How attackers bypass UAC - fully pratical but everything inside vm under control ...only for educational purpose 
+ 
 
 **Tools:** `icacls`
 
