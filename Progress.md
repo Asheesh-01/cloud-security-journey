@@ -353,7 +353,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] NTFS Permissions — Full Control, Modify, Read and Execute, Read, Write *(Tools: icacls)*
 - [x] Share Permissions — how network shares are controlled
 - [x] UAC — what it does and why it exists
-- [ ] How attackers bypass UAC — with practical 
+- [x] How attackers bypass UAC — with practical 
 
 ## 8. Windows Networking Basics
 - [ ] IP Configuration *(Tools: ipconfig)*
