@@ -70,3 +70,14 @@ What is a password spray attack and how does it differ from brute force? Which E
 What is Event ID 4648 and on which machine does it fire — the source or the destination?
 How do 4648 and 4624 work together to reconstruct lateral movement? Walk through the correlation.
 SCENARIO: You see 50 Event ID 4648 events in 10 minutes on a workstation. The Subject is a standard user account. The credentials used belong to the domain Administrator account. The Target Server changes with each event. Walk through your investigation and what this pattern indicates.
+
+## Topic 7 Complete
+Recall Questions:
+    1. What is NTFS permission? Name all five levels and what each allows. 
+    2. What is the difference between NTFS permissions and Share permissions? 
+    3. What is UAC? What does it prevent? 
+    4. What is an integrity level in Windows? Name the four levels in order. 
+    5. What is auto-elevation? Which Windows binary did we use to demonstrate it? 
+Scenario Questions:
+    1. A SOC alert fires showing fodhelper.exe spawning powershell.exe on a user's machine. The user is a standard account. What do you suspect, and what are your first three investigation steps? 
+    2. You are hardening a Windows workstation. UAC is set to "Notify me only when apps try to make changes." Is this sufficient? What would you change and why?
