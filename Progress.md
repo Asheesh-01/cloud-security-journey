@@ -356,7 +356,7 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] How attackers bypass UAC — with practical 
 
 ## 8. Windows Networking Basics
-- [ ] IP Configuration *(Tools: ipconfig)*
+- [x] IP Configuration *(Tools: ipconfig)*
 - [ ] Windows Firewall — inbound and outbound rules *(Tools: netsh)*
 - [ ] Open Ports — how to check what is listening and why it matters *(Tools: netstat)*
 
