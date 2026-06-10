@@ -71,7 +71,7 @@ What is Event ID 4648 and on which machine does it fire — the source or the de
 How do 4648 and 4624 work together to reconstruct lateral movement? Walk through the correlation.
 SCENARIO: You see 50 Event ID 4648 events in 10 minutes on a workstation. The Subject is a standard user account. The credentials used belong to the domain Administrator account. The Target Server changes with each event. Walk through your investigation and what this pattern indicates.
 
-## Topic 7 Complete
+## Topic 7 
 Recall Questions:
     1. What is NTFS permission? Name all five levels and what each allows. 
     2. What is the difference between NTFS permissions and Share permissions? 
@@ -81,3 +81,15 @@ Recall Questions:
 Scenario Questions:
     1. A SOC alert fires showing fodhelper.exe spawning powershell.exe on a user's machine. The user is a standard account. What do you suspect, and what are your first three investigation steps? 
     2. You are hardening a Windows workstation. UAC is set to "Notify me only when apps try to make changes." Is this sufficient? What would you change and why?
+
+
+##  Topic 8 
+Recall Questions:
+    1. What is the difference between an inbound and outbound firewall rule? Give a real example of each. 
+    2. What are the three Windows Firewall profiles? When does each apply? 
+    3. What does netstat -ano show? What does each flag mean? 
+    4. A port is listening on 0.0.0.0:3389. What does 0.0.0.0 mean and why is this a security concern? 
+    5. What is the default inbound and outbound behavior of Windows Firewall when no rule matches? 
+Scenario Questions:
+    1. You run netstat -ano on a machine and see an established outbound connection to 185.220.101.45:4444. PID is 2388. Walk through exactly how you investigate this step by step. 
+    2. A developer asks you to open port 8080 inbound on a Windows server so their app can receive traffic. What questions do you ask before adding the rule and what exact command do you run?

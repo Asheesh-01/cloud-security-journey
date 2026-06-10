@@ -357,8 +357,8 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 
 ## 8. Windows Networking Basics
 - [x] IP Configuration *(Tools: ipconfig)*
-- [ ] Windows Firewall — inbound and outbound rules *(Tools: netsh)*
-- [ ] Open Ports — how to check what is listening and why it matters *(Tools: netstat)*
+- [x] Windows Firewall — inbound and outbound rules *(Tools: netsh)*
+- [x] Open Ports — how to check what is listening and why it matters *(Tools: netstat)*
 
 ## 9. Windows Security Features
 - [ ] Windows Defender — how it works and its limitations
