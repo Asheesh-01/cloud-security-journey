@@ -93,3 +93,15 @@ Recall Questions:
 Scenario Questions:
     1. You run netstat -ano on a machine and see an established outbound connection to 185.220.101.45:4444. PID is 2388. Walk through exactly how you investigate this step by step. 
     2. A developer asks you to open port 8080 inbound on a Windows server so their app can receive traffic. What questions do you ask before adding the rule and what exact command do you run?
+
+
+## Topic 9 Complete
+Recall Questions:
+    1. What is the difference between signature-based, heuristic, and behavioral detection in Windows Defender? Give an example of what each catches. 
+    2. What is the difference between Windows Defender Antivirus and Microsoft Defender for Endpoint? Why does the distinction matter? 
+    3. What is BitLocker? What does it protect against and what does it NOT protect against? 
+    4. What is Mark of the Web? How do attackers bypass SmartScreen using container files? 
+    5. What is a TPM? What role does it play in BitLocker encryption? 
+Scenario Questions:
+    1. You are auditing a Windows machine and find: Defender real-time protection disabled, BitLocker not enabled on C: drive, SmartScreen set to Off. Rank these three findings by severity and explain your reasoning. 
+    2. An employee's laptop is stolen from their car. The laptop was running Windows 10 with BitLocker enabled using TPM only, no PIN. The attacker is technically sophisticated. What data is at risk and what is protected? What would you recommend changing and why?
