@@ -361,10 +361,10 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Open Ports — how to check what is listening and why it matters *(Tools: netstat)*
 
 ## 9. Windows Security Features
-- [ ] Windows Defender — how it works and its limitations
+- [x] Windows Defender — how it works and its limitations
 - [ ] Windows Firewall — how it differs from Defender
-- [ ] BitLocker — full disk encryption, protects data at rest
-- [ ] SmartScreen — application reputation filtering
+- [x] BitLocker — full disk encryption, protects data at rest
+- [x] SmartScreen — application reputation filtering
 
 ## 9.5 Linux Command Line Mastery
  
