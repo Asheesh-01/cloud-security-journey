@@ -368,9 +368,9 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 
 ## 9.5 Linux Command Line Mastery
  
-- [ ] Navigation Commands — pwd, cd, ls, ls -la, tree *(Tools: bash)*
-- [ ] File Operations — cp, mv, rm, mkdir, rmdir, touch *(Tools: bash)*
-- [ ] Viewing File Content — cat, less, more, head, tail, tail -f *(Tools: bash)*
+- [x] Navigation Commands — pwd, cd, ls, ls -la, tree *(Tools: bash)*
+- [x] File Operations — cp, mv, rm, mkdir, rmdir, touch *(Tools: bash)*
+- [x] Viewing File Content — cat, less, more, head, tail, tail -f *(Tools: bash)*
 - [ ] Finding Things — find, locate, which, whereis *(Tools: find)*
 - [ ] Text Searching — grep, grep -r, grep -i, grep -n *(Tools: grep)*
 - [ ] Text Processing — cut, awk, sed, sort, uniq, wc *(Tools: awk, sed)*

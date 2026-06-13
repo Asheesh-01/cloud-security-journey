@@ -105,3 +105,15 @@ Recall Questions:
 Scenario Questions:
     1. You are auditing a Windows machine and find: Defender real-time protection disabled, BitLocker not enabled on C: drive, SmartScreen set to Off. Rank these three findings by severity and explain your reasoning. 
     2. An employee's laptop is stolen from their car. The laptop was running Windows 10 with BitLocker enabled using TPM only, no PIN. The attacker is technically sophisticated. What data is at risk and what is protected? What would you recommend changing and why?
+
+
+## Interview Prep — Topic 9.5 Partial (remaining subtopics tomorrow)
+Recall Questions:
+    1. What is the difference between an absolute path and a relative path? Give one example of each. 
+    2. What does ls -la show that plain ls does not? Why does it matter for security investigations? 
+    3. What is the difference between tail and tail -f? When would you use each? 
+    4. What does rm -rf do? Why is it dangerous and what precaution do you always take before running it? 
+    5. What is a hidden file on Linux? How do you see hidden files and why do attackers create them? 
+Scenario Questions:
+    1. You SSH into a potentially compromised Linux server. Write the exact sequence of navigation and file viewing commands you run in the first 2 minutes and explain what you are looking for with each one. 
+    2. You suspect an attacker created a backdoor user account on a Linux server. Which file do you check, which command do you use to view it, and what specifically do you look for in the output?
