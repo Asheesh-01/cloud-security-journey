@@ -117,3 +117,14 @@ Recall Questions:
 Scenario Questions:
     1. You SSH into a potentially compromised Linux server. Write the exact sequence of navigation and file viewing commands you run in the first 2 minutes and explain what you are looking for with each one. 
     2. You suspect an attacker created a backdoor user account on a Linux server. Which file do you check, which command do you use to view it, and what specifically do you look for in the output?
+
+Interview Prep — 
+Recall Questions:
+    1. What is the difference between find and locate? When would you use each? 
+    2. What does find / -perm -4000 -type f find? Why does this matter for security? 
+    3. What does the -r, -i, -n flag each do in grep? Give one security use case for each. 
+    4. What does 2>/dev/null do and why do you add it to find commands during investigation? 
+    5. What is $PATH? How can an attacker abuse it? 
+Scenario Questions:
+    1. You are investigating a compromised Linux server. Write the exact find commands you run to locate attacker-planted files. Explain what each looks for and what a suspicious result looks like. 
+    2. You have a 500MB auth log file. Write a single command pipeline using grep to extract all unique IP addresses that had more than 10 failed login attempts, ranked by count. Explain every part.

@@ -371,8 +371,8 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Navigation Commands — pwd, cd, ls, ls -la, tree *(Tools: bash)*
 - [x] File Operations — cp, mv, rm, mkdir, rmdir, touch *(Tools: bash)*
 - [x] Viewing File Content — cat, less, more, head, tail, tail -f *(Tools: bash)*
-- [ ] Finding Things — find, locate, which, whereis *(Tools: find)*
-- [ ] Text Searching — grep, grep -r, grep -i, grep -n *(Tools: grep)*
+- [x] Finding Things — find, locate, which, whereis *(Tools: find)*
+- [x] Text Searching — grep, grep -r, grep -i, grep -n *(Tools: grep)*
 - [ ] Text Processing — cut, awk, sed, sort, uniq, wc *(Tools: awk, sed)*
 - [ ] Pipe Chaining — combining commands with | to build powerful one-liners *(Tools: bash)*
 - [ ] Redirection — >, >>, <, 2>, 2>&1 — where output goes *(Tools: bash)*
