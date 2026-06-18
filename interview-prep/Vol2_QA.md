@@ -128,3 +128,17 @@ Recall Questions:
 Scenario Questions:
     1. You are investigating a compromised Linux server. Write the exact find commands you run to locate attacker-planted files. Explain what each looks for and what a suspicious result looks like. 
     2. You have a 500MB auth log file. Write a single command pipeline using grep to extract all unique IP addresses that had more than 10 failed login attempts, ranked by count. Explain every part.
+
+## Topic 9.5 Complete
+Recall Questions:
+
+What is the difference between cut and awk? When would you use each?
+What does sort | uniq -c do? Why is sort essential before uniq?
+Explain > and >> redirection. When would you use each?
+What does command substitution $(command) do?
+In awk, what is $0, $1, NF, and NR?
+
+Scenario Questions:
+
+You have a 1GB web server access log. Write a complete command pipeline to find the top 10 IPs accessing your /admin endpoint with status code 200 (successful). Explain every part.
+You need to create a security report file from log analysis. Write commands using redirection to create a file that contains: (1) timestamp of report, (2) top 5 attackers, (3) list of files they accessed, (4) whether any succeeded. Use both > and >>.
