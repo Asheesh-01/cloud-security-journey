@@ -142,3 +142,17 @@ Scenario Questions:
 
 You have a 1GB web server access log. Write a complete command pipeline to find the top 10 IPs accessing your /admin endpoint with status code 200 (successful). Explain every part.
 You need to create a security report file from log analysis. Write commands using redirection to create a file that contains: (1) timestamp of report, (2) top 5 attackers, (3) list of files they accessed, (4) whether any succeeded. Use both > and >>.
+
+
+Recall Questions:
+
+What is the difference between whoami, id, and groups? Which one gives most detailed information?
+What does sudo -l show? Why does an attacker care about its output?
+What is the difference between ping, curl, and ss? When would you use each?
+What does tar -cvzf do? Explain each flag.
+Why is date important during forensic investigation?
+
+Scenario Questions:
+
+You SSH into a server and suspect privilege escalation. Write the exact commands to check: (1) what user you are, (2) what sudo access you have, (3) what groups you belong to, (4) whether docker group is present. For each result, explain what it means and what is a security risk.
+You are investigating a compromised server. Write commands to: (1) check connectivity to external networks, (2) find all listening ports and their owning processes, (3) identify active connections to unknown IPs. Explain what results would indicate active attack.

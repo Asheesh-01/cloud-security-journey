@@ -373,13 +373,13 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Viewing File Content — cat, less, more, head, tail, tail -f *(Tools: bash)*
 - [x] Finding Things — find, locate, which, whereis *(Tools: find)*
 - [x] Text Searching — grep, grep -r, grep -i, grep -n *(Tools: grep)*
-- [ ] Text Processing — cut, awk, sed, sort, uniq, wc *(Tools: awk, sed)*
-- [ ] Pipe Chaining — combining commands with | to build powerful one-liners *(Tools: bash)*
-- [ ] Redirection — >, >>, <, 2>, 2>&1 — where output goes *(Tools: bash)*
-- [ ] Permissions Quick Check — whoami, id, sudo, su *(Tools: bash)*
-- [ ] Network Quick Commands — ping, curl, wget, ss, netstat *(Tools: bash)*
-- [ ] Archiving and Compression — tar, gzip, zip, unzip *(Tools: tar)*
-- [ ] System Info Commands — uname -a, uptime, hostname, date, env *(Tools: bash)*
+- [x] Text Processing — cut, awk, sed, sort, uniq, wc *(Tools: awk, sed)*
+- [x] Pipe Chaining — combining commands with | to build powerful one-liners *(Tools: bash)*
+- [x] Redirection — >, >>, <, 2>, 2>&1 — where output goes *(Tools: bash)*
+- [x] Permissions Quick Check — whoami, id, sudo, su *(Tools: bash)*
+- [x] Network Quick Commands — ping, curl, wget, ss, netstat *(Tools: bash)*
+- [x] Archiving and Compression — tar, gzip, zip, unzip *(Tools: tar)*
+- [x] System Info Commands — uname -a, uptime, hostname, date, env *(Tools: bash)*
 - [ ] Disk and Memory Quick Check — df -h, du -sh, free -h *(Tools: bash)*
 - [ ] Security-Focused One-Liners — grep failed /var/log/auth.log, find / -perm -4000, ss -tulnp *(Tools: grep, find, ss)*
 
