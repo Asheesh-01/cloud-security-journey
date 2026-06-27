@@ -380,8 +380,8 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Network Quick Commands — ping, curl, wget, ss, netstat *(Tools: bash)*
 - [x] Archiving and Compression — tar, gzip, zip, unzip *(Tools: tar)*
 - [x] System Info Commands — uname -a, uptime, hostname, date, env *(Tools: bash)*
-- [ ] Disk and Memory Quick Check — df -h, du -sh, free -h *(Tools: bash)*
-- [ ] Security-Focused One-Liners — grep failed /var/log/auth.log, find / -perm -4000, ss -tulnp *(Tools: grep, find, ss)*
+- [x] Disk and Memory Quick Check — df -h, du -sh, free -h *(Tools: bash)*
+- [x] Security-Focused One-Liners — grep failed /var/log/auth.log, find / -perm -4000, ss -tulnp *(Tools: grep, find, ss)*
 
 ## 10. Linux File System Structure
 - [ ] Root / *(Tools: ls, tree)*
@@ -482,9 +482,9 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 **Estimated Time: 22-28 days at 1-2 hours daily**
 
 ## 1. Network Fundamentals
-- [ ] What is a Network
-- [ ] Client-Server Model — who requests, who responds
-- [ ] Peer-to-Peer Model — no central server
+- [x] What is a Network
+- [x] Client-Server Model — who requests, who responds
+- [x] Peer-to-Peer Model — no central server
 
 ## 2. OSI Model — Draw By Hand First
 - [ ] Layer 1 Physical — cables and signals
