@@ -487,14 +487,14 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Peer-to-Peer Model — no central server
 
 ## 2. OSI Model — Draw By Hand First
-- [ ] Layer 1 Physical — cables and signals
-- [ ] Layer 2 Data Link — MAC addresses, switches
-- [ ] Layer 3 Network — IP addresses, routers
-- [ ] Layer 4 Transport — TCP, UDP, ports
-- [ ] Layer 5 Session — managing connections
-- [ ] Layer 6 Presentation — encryption, encoding, compression
-- [ ] Layer 7 Application — HTTP, DNS, SMTP
-- [ ] Draw this by hand first — memorize all 7 layers — this is asked in every security interview
+- [x] Layer 1 Physical — cables and signals
+- [x] Layer 2 Data Link — MAC addresses, switches
+- [x] Layer 3 Network — IP addresses, routers
+- [x] Layer 4 Transport — TCP, UDP, ports
+- [x] Layer 5 Session — managing connections
+- [x] Layer 6 Presentation — encryption, encoding, compression
+- [x] Layer 7 Application — HTTP, DNS, SMTP
+- [x] Draw this by hand first — memorize all 7 layers — this is asked in every security interview
 
 *(Tools: Paper and pen — draw it before any digital tool)*
 
