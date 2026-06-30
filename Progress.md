@@ -499,10 +499,10 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 *(Tools: Paper and pen — draw it before any digital tool)*
 
 ## 3. TCP/IP Model
-- [ ] Network Interface Layer — maps to OSI Layer 1 and 2
-- [ ] Internet Layer — maps to OSI Layer 3
-- [ ] Transport Layer — maps to OSI Layer 4
-- [ ] Application Layer — maps to OSI Layer 5, 6, and 7
+- [x] Network Interface Layer — maps to OSI Layer 1 and 2
+- [x] Internet Layer — maps to OSI Layer 3
+- [x] Transport Layer — maps to OSI Layer 4
+- [x] Application Layer — maps to OSI Layer 5, 6, and 7
 
 ## 4. IP Addressing
 - [ ] IPv4 — format and ranges *(Tools: ip addr)*
