@@ -505,11 +505,11 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Application Layer — maps to OSI Layer 5, 6, and 7
 
 ## 4. IP Addressing
-- [ ] IPv4 — format and ranges *(Tools: ip addr)*
-- [ ] IPv6 — why it exists and the format
-- [ ] Public vs Private IP — the difference and when each is used
-- [ ] Static vs Dynamic IP
-- [ ] APIPA — 169.254.x.x — what happens when DHCP fails
+- [x] IPv4 — format and ranges *(Tools: ip addr)*
+- [x] IPv6 — why it exists and the format
+- [x] Public vs Private IP — the difference and when each is used
+- [x] Static vs Dynamic IP
+- [x] APIPA — 169.254.x.x — what happens when DHCP fails
 
 ## 5. Subnetting — Calculate By Hand First
 - [ ] CIDR Notation — what /24 means *(Tools: ipcalc — after calculating by hand first)*
