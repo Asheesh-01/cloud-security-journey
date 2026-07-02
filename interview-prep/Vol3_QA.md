@@ -30,3 +30,15 @@ Recall Questions:
 Scenario Questions:
     1. A developer says their application cannot connect to database. Walk through each TCP/IP layer to diagnose where the problem could be. 
     2. During incident response, you find someone accessed a service at 3 AM. Walk through which TCP/IP layer would show this in logs.
+
+
+## Topic 4
+Recall Questions:
+    1. What is the difference between IPv4 and IPv6? Why does IPv6 exist? 
+    2. What are the three private IP ranges? Which class do they belong to? 
+    3. What is a subnet mask? What does /24 mean? 
+    4. What is the difference between static and dynamic IP? When would you use each? 
+    5. What is APIPA? When does a device use it? 
+Scenario Questions:
+    1. A user's computer shows IP 169.254.45.67. What problem occurred? How do you fix it? 
+    2. Your company network is 192.168.1.0/24. How many usable host addresses? List the network, broadcast, and gateway IPs.
