@@ -42,3 +42,15 @@ Recall Questions:
 Scenario Questions:
     1. A user's computer shows IP 169.254.45.67. What problem occurred? How do you fix it? 
     2. Your company network is 192.168.1.0/24. How many usable host addresses? List the network, broadcast, and gateway IPs.
+
+## Topic 5
+
+Recall Questions:
+    1. What is CIDR notation? What does /24 mean? 
+    2. How do you calculate the number of usable hosts for a given subnet? 
+    3. What is the network address and broadcast address for 192.168.1.0/24? 
+    4. What is the subnet mask for /28? 
+    5. Why is /30 used for point-to-point links? 
+Scenario Questions:
+    1. Your company network is 10.0.0.0/16. Divide it into 4 equal subnets. Calculate the network address, first usable host, last usable host, and broadcast address for each subnet. 
+    2. A network engineer says they need a subnet with exactly 30 usable hosts. What prefix length (/XX) would you use and why?

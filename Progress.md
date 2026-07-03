@@ -512,12 +512,12 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] APIPA — 169.254.x.x — what happens when DHCP fails
 
 ## 5. Subnetting — Calculate By Hand First
-- [ ] CIDR Notation — what /24 means *(Tools: ipcalc — after calculating by hand first)*
-- [ ] Subnet Masks — 255.255.255.0 explained
-- [ ] Network Address — first address in the range
-- [ ] Broadcast Address — last address in the range
-- [ ] Usable host range — addresses you can assign
-- [ ] Practice /24, /28, /30 by hand before using calculator — asked in every interview
+- [x] CIDR Notation — what /24 means *(Tools: ipcalc — after calculating by hand first)*
+- [x] Subnet Masks — 255.255.255.0 explained
+- [x] Network Address — first address in the range
+- [x] Broadcast Address — last address in the range
+- [x] Usable host range — addresses you can assign
+- [x] Practice /24, /28, /30 by hand before using calculator — asked in every interview
 
 ## 6. MAC Addressing
 - [ ] MAC Address Format — 6 bytes written in hexadecimal *(Tools: arp, ip neigh)*
