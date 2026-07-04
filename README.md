@@ -13,7 +13,7 @@ Daily hands-on cloud security learning. Every day = terminal open, commands run,
 | **Name** | Asheesh Sharma |
 | **Year** | 2nd Year B.Tech |
 | **Target Role** | Cloud Security Engineer |
-| **Started** | Day 01 — streak active |
+| **Started** | streak active |
 | **Method** | 80% Practical / 20% Theory |
 | **Blog** | [asheeshsharma.hashnode.dev](https://asheeshsharma.hashnode.dev) |
 | **LinkedIn** | [linkedin.com/in/asheesh-sharma](https://www.linkedin.com/in/asheesh-sharmaa/) |
@@ -27,9 +27,9 @@ This journey follows a structured 10-volume roadmap built for cracking a cloud s
 | Volume | Topic | Status |
 |--------|-------|--------|
 | Volume 00 | Orientation & Environment Setup | ✅ |
-| Volume 01 | Computer & Internet Foundations | 
-| Volume 02 | Operating Systems Deep Dive | 
-| Volume 03 | Networking From Zero | 
+| Volume 01 | Computer & Internet Foundations | ✅ |
+| Volume 02 | Operating Systems Deep Dive |  ✅ |
+|| Volume 03 | Networking From Zero | 
 | Volume 04 | Python for Security | 
 | Volume 05 | Security Foundations | 
 | Volume 06 | Blue Team Core (SOC) | 
@@ -55,13 +55,12 @@ cloud-security-journey/
 ├── Volume-02_OS-Deep-Dive/
 │   ├── labs/
 │   ├── artifacts/
-│   ├── linux/
-│   └── windows/
+│   ├── notes\
 ├── Volume-03_Networking/
 │   ├── notes/
 │   ├── labs/
 │   ├── artifacts/
-│   └── pcaps/
+│   
 ├── Volume-04_Python/
 │   ├── notes/
 │   ├── scripts/
