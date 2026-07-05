@@ -54,3 +54,17 @@ Recall Questions:
 Scenario Questions:
     1. Your company network is 10.0.0.0/16. Divide it into 4 equal subnets. Calculate the network address, first usable host, last usable host, and broadcast address for each subnet. 
     2. A network engineer says they need a subnet with exactly 30 usable hosts. What prefix length (/XX) would you use and why?
+
+
+
+## Topic 6
+
+Recall Questions:
+    1. What is a MAC address? How is it different from an IP address? 
+    2. What is ARP? What problem does it solve? 
+    3. What is ARP spoofing? How does it enable man-in-the-middle attacks? 
+    4. What is the broadcast MAC address? When is it used? 
+    5. What is the OUI in a MAC address? 
+Scenario Questions:
+    1. You monitor a network and notice two different IPs have the same MAC address. What is happening? How do you respond? 
+    2. Walk through how ARP spoofing would work if you were attacking a user on your local network. What would you do step-by-step?

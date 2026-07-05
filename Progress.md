@@ -520,9 +520,9 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Practice /24, /28, /30 by hand before using calculator — asked in every interview
 
 ## 6. MAC Addressing
-- [ ] MAC Address Format — 6 bytes written in hexadecimal *(Tools: arp, ip neigh)*
-- [ ] ARP Protocol — how IP addresses map to MAC addresses
-- [ ] ARP Spoofing — how attackers use fake ARP replies — man-in-the-middle attack concept
+- [x] MAC Address Format — 6 bytes written in hexadecimal *(Tools: arp, ip neigh)*
+- [x] ARP Protocol — how IP addresses map to MAC addresses
+- [x] ARP Spoofing — how attackers use fake ARP replies — man-in-the-middle attack concept
 
 ## 7. Network Devices
 - [ ] Router — routes packets between different networks
