@@ -68,3 +68,15 @@ Recall Questions:
 Scenario Questions:
     1. You monitor a network and notice two different IPs have the same MAC address. What is happening? How do you respond? 
     2. Walk through how ARP spoofing would work if you were attacking a user on your local network. What would you do step-by-step?
+
+##  Topic 7
+
+Recall Questions:
+    1. What is the difference between a router and a switch? 
+    2. What is the difference between a firewall, IDS, and IPS? 
+    3. At which layers do each device operate? 
+    4. What is a stateless firewall vs stateful firewall? 
+    5. Why would a company use both IDS and IPS? 
+Scenario Questions:
+    1. Design network security for e-commerce company with DMZ. Where would you place firewall, IDS, IPS, router, switch? 
+    2. Attacker compromises HVAC vendor network. Walk through how proper network segmentation would prevent lateral movement. 

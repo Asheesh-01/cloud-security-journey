@@ -525,12 +525,12 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] ARP Spoofing — how attackers use fake ARP replies — man-in-the-middle attack concept
 
 ## 7. Network Devices
-- [ ] Router — routes packets between different networks
-- [ ] Switch — connects devices within the same network
-- [ ] Hub — old device, broadcasts to all ports — security risk, no longer used
-- [ ] Firewall — allows or blocks traffic based on rules
-- [ ] IDS — Intrusion Detection System, detects but does not block
-- [ ] IPS — Intrusion Prevention System, detects and blocks
+- [x] Router — routes packets between different networks
+- [x] Switch — connects devices within the same network
+- [x] Hub — old device, broadcasts to all ports — security risk, no longer used
+- [x] Firewall — allows or blocks traffic based on rules
+- [x] IDS — Intrusion Detection System, detects but does not block
+- [x] IPS — Intrusion Prevention System, detects and blocks
 
 ## 8. Ports & Services — Memorize 20 Ports Without Looking
 - [ ] Well-Known Ports 0–1023 *(Tools: netstat, ss)*
