@@ -533,12 +533,12 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] IPS — Intrusion Prevention System, detects and blocks
 
 ## 8. Ports & Services — Memorize 20 Ports Without Looking
-- [ ] Well-Known Ports 0–1023 *(Tools: netstat, ss)*
-- [ ] 21 FTP, 22 SSH, 23 Telnet, 25 SMTP, 53 DNS, 80 HTTP, 110 POP3, 143 IMAP
-- [ ] 443 HTTPS, 445 SMB, 3306 MySQL, 3389 RDP, 8080 HTTP-alt, 8443 HTTPS-alt
-- [ ] 27017 MongoDB, 5432 PostgreSQL, 6379 Redis, 9200 Elasticsearch, 5601 Kibana, 2375 Docker
-- [ ] Registered Ports
-- [ ] Dynamic Ports
+- [x] Well-Known Ports 0–1023 *(Tools: netstat, ss)*
+- [x] 21 FTP, 22 SSH, 23 Telnet, 25 SMTP, 53 DNS, 80 HTTP, 110 POP3, 143 IMAP
+- [x] 443 HTTPS, 445 SMB, 3306 MySQL, 3389 RDP, 8080 HTTP-alt, 8443 HTTPS-alt
+- [x] 27017 MongoDB, 5432 PostgreSQL, 6379 Redis, 9200 Elasticsearch, 5601 Kibana, 2375 Docker
+- [x] Registered Ports
+- [x] Dynamic Ports
 
 ## 9. Transport Protocols
 - [ ] TCP — connection-oriented *(Tools: tcpdump, Wireshark)*
