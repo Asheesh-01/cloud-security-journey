@@ -84,11 +84,23 @@ Scenario Questions:
 ## Topic 8
 
 Recall Questions:
-    1. What is the difference between a router and a switch? 
-    2. What is the difference between a firewall, IDS, and IPS? 
-    3. At which layers do each device operate? 
-    4. What is a stateless firewall vs stateful firewall? 
-    5. Why would a company use both IDS and IPS? 
+    1. List all 20 ports and their services from memory. 
+    2. What is the difference between port 80 and port 443? 
+    3. Why is Telnet (port 23) considered insecure? What replaced it? 
+    4. What is the difference between POP3 and IMAP? 
+    5. Why should database ports (3306, 5432, 27017, 6379) never be exposed to the internet? 
 Scenario Questions:
-    1. Design network security for e-commerce company with DMZ. Where would you place firewall, IDS, IPS, router, switch? 
-    2. Attacker compromises HVAC vendor network. Walk through how proper network segmentation would prevent lateral movement. 
+    1. A port scan reveals port 6379 (Redis) open on a public-facing server with no authentication. Explain the risk and what you would recommend. 
+    2. You find port 2375 (Docker unencrypted) open on a server. Explain why this is critical and what an attacker could do.
+
+## Topic 9
+
+Recall Questions:
+    1. What is the difference between HTTP and HTTPS? 
+    2. Why is FTP considered insecure? What should replace it? 
+    3. What is the difference between SMTP, POP3, and IMAP? 
+    4. How does DNS work? What are DNS records? 
+    5. Why is SSH secure while Telnet is not? 
+Scenario Questions:
+    1. Explain what happens when you type a URL in browser, including which protocols are involved at each step (DNS, TLS, HTTP). 
+    2. An attacker on your network intercepts your FTP login. What could they do? How would using SFTP prevent this?
