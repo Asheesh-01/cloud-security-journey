@@ -104,3 +104,15 @@ Recall Questions:
 Scenario Questions:
     1. Explain what happens when you type a URL in browser, including which protocols are involved at each step (DNS, TLS, HTTP). 
     2. An attacker on your network intercepts your FTP login. What could they do? How would using SFTP prevent this?
+
+## Topic 10
+
+Recall Questions:
+    1. What is the difference between HTTP and HTTPS? 
+    2. Why is FTP considered insecure? What should replace it? 
+    3. What is the difference between SMTP, POP3, and IMAP? 
+    4. How does DNS work? What are DNS records? 
+    5. Why is SSH secure while Telnet is not? 
+Scenario Questions:
+    1. Explain what happens when you type a URL in browser, including which protocols are involved at each step (DNS, TLS, HTTP). 
+    2. An attacker on your network intercepts your FTP login. What could they do? How would using SFTP prevent this?

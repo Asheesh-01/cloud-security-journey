@@ -541,21 +541,21 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Dynamic Ports
 
 ## 9. Transport Protocols
-- [ ] TCP — connection-oriented *(Tools: tcpdump, Wireshark)*
-- [ ] TCP 3-way handshake — SYN to SYN-ACK to ACK
-- [ ] Reliable, ordered delivery
-- [ ] UDP — connectionless — faster, no guarantee of delivery
-- [ ] When to use TCP — reliability matters — HTTP, SSH, FTP
-- [ ] When to use UDP — speed matters — DNS, video calls, gaming
+- [x] TCP — connection-oriented *(Tools: tcpdump, Wireshark)*
+- [x] TCP 3-way handshake — SYN to SYN-ACK to ACK
+- [x] Reliable, ordered delivery
+- [x] UDP — connectionless — faster, no guarantee of delivery
+- [x] When to use TCP — reliability matters — HTTP, SSH, FTP
+- [x] When to use UDP — speed matters — DNS, video calls, gaming
 
 ## 10. Application Protocols
-- [ ] HTTP — how web pages are requested and delivered *(Tools: curl)*
-- [ ] HTTPS — HTTP with TLS encryption
-- [ ] FTP — transferring files — sends credentials in cleartext — security risk
-- [ ] SMTP — sending email
-- [ ] DNS — resolving domain names to IP addresses *(Tools: dig)*
-- [ ] SSH — encrypted remote access to a machine *(Tools: ssh)*
-- [ ] POP3 and IMAP — receiving email
+- [x] HTTP — how web pages are requested and delivered *(Tools: curl)*
+- [x] HTTPS — HTTP with TLS encryption
+- [x] FTP — transferring files — sends credentials in cleartext — security risk
+- [x] SMTP — sending email
+- [x] DNS — resolving domain names to IP addresses *(Tools: dig)*
+- [x] SSH — encrypted remote access to a machine *(Tools: ssh)*
+- [x] POP3 and IMAP — receiving email
 
 ## 11. DNS System
 - [ ] DNS Hierarchy — Root to TLD to Domain to Subdomain *(Tools: dig, nslookup)*
