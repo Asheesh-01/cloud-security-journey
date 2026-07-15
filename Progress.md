@@ -558,10 +558,10 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] POP3 and IMAP — receiving email
 
 ## 11. DNS System
-- [ ] DNS Hierarchy — Root to TLD to Domain to Subdomain *(Tools: dig, nslookup)*
-- [ ] Record Types — A, AAAA, MX, CNAME, TXT, NS, PTR — what each does
-- [ ] DNS Resolution Process step by step — from browser to answer
-- [ ] DNS Cache Poisoning — attack concept — redirecting users to attacker-controlled servers
+- [x] DNS Hierarchy — Root to TLD to Domain to Subdomain *(Tools: dig, nslookup)*
+- [x] Record Types — A, AAAA, MX, CNAME, TXT, NS, PTR — what each does
+- [x] DNS Resolution Process step by step — from browser to answer
+- [x] DNS Cache Poisoning — attack concept — redirecting users to attacker-controlled servers
 
 ## 12. DHCP
 - [ ] DORA Process — Discover, Offer, Request, Acknowledge *(Tools: dhclient)*
