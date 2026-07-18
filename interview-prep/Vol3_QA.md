@@ -116,3 +116,18 @@ Recall Questions:
 Scenario Questions:
     1. Explain what happens when you type a URL in browser, including which protocols are involved at each step (DNS, TLS, HTTP). 
     2. An attacker on your network intercepts your FTP login. What could they do? How would using SFTP prevent this?
+
+
+
+## Topic 11
+
+Recall Questions:
+    1. What is the DNS hierarchy? Name each level from root to subdomain. 
+    2. What is the difference between A record, AAAA record, and CNAME record? 
+    3. What is an MX record? Why does it matter for security? 
+    4. What is DNS cache poisoning? How does it work? 
+    5. What is DNSSEC and how does it defend against DNS poisoning? 
+Scenario Questions:
+    1. Walk through complete DNS resolution for mail.google.com from the moment you type it in your browser to when the browser gets the IP address. Include every server contacted. 
+    2. An attacker poisoned your company's DNS resolver cache. Users visiting bank.com are landing on a phishing site. What steps do you take immediately and what long-term fixes do you recommend?
+	
