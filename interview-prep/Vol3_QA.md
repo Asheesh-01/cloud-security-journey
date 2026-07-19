@@ -131,3 +131,16 @@ Scenario Questions:
     1. Walk through complete DNS resolution for mail.google.com from the moment you type it in your browser to when the browser gets the IP address. Include every server contacted. 
     2. An attacker poisoned your company's DNS resolver cache. Users visiting bank.com are landing on a phishing site. What steps do you take immediately and what long-term fixes do you recommend?
 	
+
+
+## Topics 12 and 13
+
+Recall Questions:
+    1. What is DHCP? Explain the DORA process step by step. 
+    2. What DHCP options are sent alongside the IP address? 
+    3. What is a routing table? How does a router decide where to send a packet? 
+    4. What is the difference between static and dynamic routing? 
+    5. What is the difference between OSPF and BGP? 
+Scenario Questions:
+    1. Users on your network suddenly cannot get IP addresses. Walk through the steps to diagnose whether this is a DHCP starvation attack or a DHCP server failure. 
+    2. You notice all traffic from a specific subnet is being routed through an unexpected IP. What attack does this suggest and how would you respond?

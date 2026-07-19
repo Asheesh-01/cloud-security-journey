@@ -564,14 +564,14 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] DNS Cache Poisoning — attack concept — redirecting users to attacker-controlled servers
 
 ## 12. DHCP
-- [ ] DORA Process — Discover, Offer, Request, Acknowledge *(Tools: dhclient)*
-- [ ] DHCP Options — gateway, DNS server, lease time
+- [x] DORA Process — Discover, Offer, Request, Acknowledge *(Tools: dhclient)*
+- [x] DHCP Options — gateway, DNS server, lease time
 
 ## 13. Routing
-- [ ] Routing Tables — how the OS decides where to send packets *(Tools: ip route)*
-- [ ] Default Gateway — the exit point for unknown destinations *(Tools: traceroute)*
-- [ ] Static routing — manually configured routes
-- [ ] Dynamic routing — routes learned automatically — OSPF, BGP concepts
+- [x] Routing Tables — how the OS decides where to send packets *(Tools: ip route)*
+- [x] Default Gateway — the exit point for unknown destinations *(Tools: traceroute)*
+- [x] Static routing — manually configured routes
+- [x] Dynamic routing — routes learned automatically — OSPF, BGP concepts
 
 ## 14. Firewall Basics
 - [ ] Stateless Firewall — checks each packet independently *(Tools: iptables, ufw)*
