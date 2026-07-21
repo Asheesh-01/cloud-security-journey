@@ -574,17 +574,17 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Dynamic routing — routes learned automatically — OSPF, BGP concepts
 
 ## 14. Firewall Basics
-- [ ] Stateless Firewall — checks each packet independently *(Tools: iptables, ufw)*
-- [ ] Stateful Firewall — tracks connection state — much more effective
-- [ ] Inbound Rules — what traffic is allowed in
-- [ ] Outbound Rules — what traffic is allowed out
-- [ ] iptables chains — INPUT, OUTPUT, FORWARD
+- [x] Stateless Firewall — checks each packet independently *(Tools: iptables, ufw)*
+- [x] Stateful Firewall — tracks connection state — much more effective
+- [x] Inbound Rules — what traffic is allowed in
+- [x] Outbound Rules — what traffic is allowed out
+- [x] iptables chains — INPUT, OUTPUT, FORWARD
 
 ## 15. VPN Concepts
-- [ ] Tunneling — wrapping traffic inside another protocol *(Tools: OpenVPN)*
-- [ ] Split Tunneling — only some traffic goes through VPN
-- [ ] IPSec VPN — works at the network layer
-- [ ] SSL VPN — works at the application layer
+- [x] Tunneling — wrapping traffic inside another protocol *(Tools: OpenVPN)*
+- [x] Split Tunneling — only some traffic goes through VPN
+- [x] IPSec VPN — works at the network layer
+- [x] SSL VPN — works at the application layer
 
 ## 16. Wireless Networking
 - [ ] Wi-Fi Standards — 802.11a/b/g/n/ac/ax *(Tools: iwconfig)*
