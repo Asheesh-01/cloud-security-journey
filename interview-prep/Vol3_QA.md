@@ -144,3 +144,14 @@ Recall Questions:
 Scenario Questions:
     1. Users on your network suddenly cannot get IP addresses. Walk through the steps to diagnose whether this is a DHCP starvation attack or a DHCP server failure. 
     2. You notice all traffic from a specific subnet is being routed through an unexpected IP. What attack does this suggest and how would you respond?
+
+##  Topics 14 and 15
+Recall Questions:
+    1. What is the difference between a stateless and stateful firewall? 
+    2. What are the three main iptables chains and what does each handle? 
+    3. What is the difference between a full tunnel VPN and split tunneling? 
+    4. What is the difference between IPSec and SSL VPN? 
+    5. What is the default deny policy and why is it more secure than default allow? 
+Scenario Questions:
+    1. A firewall blocks port 443 outbound. What service is affected, what legitimate reason would a security team have for this, and what would the business impact be? 
+    2. Colonial Pipeline was breached via VPN with no MFA. What specific controls would you implement to prevent this?
