@@ -155,3 +155,15 @@ Recall Questions:
 Scenario Questions:
     1. A firewall blocks port 443 outbound. What service is affected, what legitimate reason would a security team have for this, and what would the business impact be? 
     2. Colonial Pipeline was breached via VPN with no MFA. What specific controls would you implement to prevent this?
+
+
+## Topics 16 and 17
+Recall Questions:
+    1. What is the difference between WPA2 and WPA3? Why is WPA3 more secure? 
+    2. Why is WPS considered a security vulnerability? What is the specific attack? 
+    3. What is the difference between promiscuous mode and monitor mode? 
+    4. What is the difference between tcpdump and Wireshark? When would you use each? 
+    5. What is a Wireshark display filter? Give three examples with explanation. 
+Scenario Questions:
+    1. You capture network traffic and see regular outbound connections every 60 seconds to an unknown IP. What do you suspect and what do you do? 
+    2. Users report WiFi is slow. During investigation you notice multiple devices with same SSID as your corporate network but different BSSID. What is happening and how do you respond?

@@ -587,16 +587,16 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] SSL VPN — works at the application layer
 
 ## 16. Wireless Networking
-- [ ] Wi-Fi Standards — 802.11a/b/g/n/ac/ax *(Tools: iwconfig)*
-- [ ] WPA2 — current widely used standard
-- [ ] WPA3 — newer and stronger
-- [ ] SSID — the network name
-- [ ] WPS — why it should be disabled — known brute force vulnerability
+- [x] Wi-Fi Standards — 802.11a/b/g/n/ac/ax *(Tools: iwconfig)*
+- [x] WPA2 — current widely used standard
+- [x] WPA3 — newer and stronger
+- [x] SSID — the network name
+- [x] WPS — why it should be disabled — known brute force vulnerability
 
 ## 17. Network Monitoring
-- [ ] Packet Capture — capturing raw network traffic *(Tools: Wireshark, tcpdump)*
-- [ ] Traffic Analysis — reading and understanding what you captured
-- [ ] Wireshark Filter Syntax — filter by IP, protocol, or port
+- [x] Packet Capture — capturing raw network traffic *(Tools: Wireshark, tcpdump)*
+- [x] Traffic Analysis — reading and understanding what you captured
+- [x] Wireshark Filter Syntax — filter by IP, protocol, or port
 
 ## 18. Network Scanning
 - [ ] Host Discovery — finding live hosts on a network *(Tools: nmap)*
