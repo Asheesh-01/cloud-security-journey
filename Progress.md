@@ -599,11 +599,11 @@ Cyber Dragon and learning are one track. After every volume completes, create th
 - [x] Wireshark Filter Syntax — filter by IP, protocol, or port
 
 ## 18. Network Scanning
-- [ ] Host Discovery — finding live hosts on a network *(Tools: nmap)*
-- [ ] Port Scanning — finding open ports on a host
-- [ ] Service Detection — what software is running on each port
-- [ ] OS Fingerprinting — guessing the OS from network responses
-- [ ] CRITICAL RULE: Only scan networks and systems you own. Never scan without permission.
+- [x] Host Discovery — finding live hosts on a network *(Tools: nmap)*
+- [x] Port Scanning — finding open ports on a host
+- [x] Service Detection — what software is running on each port
+- [x] OS Fingerprinting — guessing the OS from network responses
+- [x] CRITICAL RULE: Only scan networks and systems you own. Never scan without permission.
 
 **Volume 3 Mini Project (complete before Volume 4):**
 - [ ] Build a Python network scanner that discovers live hosts on your local subnet

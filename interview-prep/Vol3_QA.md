@@ -167,3 +167,17 @@ Recall Questions:
 Scenario Questions:
     1. You capture network traffic and see regular outbound connections every 60 seconds to an unknown IP. What do you suspect and what do you do? 
     2. Users report WiFi is slow. During investigation you notice multiple devices with same SSID as your corporate network but different BSSID. What is happening and how do you respond?
+
+
+## Topic 18
+
+Topic 18
+Recall Questions:
+    1. What is the difference between a SYN scan and a connect scan? Why is SYN scan considered stealthier? 
+    2. What do open, closed, and filtered port states mean in nmap output? 
+    3. What is OS fingerprinting? How does nmap determine the OS of a remote host? 
+    4. What is the Nmap Scripting Engine (NSE)? Give two use cases. 
+    5. Why should you scan your own systems with nmap regularly? 
+Scenario Questions:
+    1. You are a security engineer. Your manager asks you to find all devices on the 10.0.0.0/24 network that have port 3306 (MySQL) open and exposed. Write the exact nmap command and explain every flag. 
+    2. An nmap scan of a server returns port 22 open with OpenSSH 7.2p2. Why is this a security concern and what do you do? 
