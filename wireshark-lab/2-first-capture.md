@@ -91,6 +91,6 @@ Most traffic on our network is HTTPS (port 443). This means the content is encry
 
 ## 🔐 Security Angle
 
-**Why this matters:** When you're on public Wi-Fi, anyone can capture packets. This is why you should always use HTTPS and VPNs.
+**Why this matters:** When you're on public Wi-Fi, anyone can capture packets. This is why you should always use HTTPS and VPNs....
 
 **Real Breach Reference:** In 2010, security researcher Robert Graham demonstrated that 30% of users on public Wi-Fi had their credentials stolen within one hour — simply because they visited HTTP sites.
